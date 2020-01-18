@@ -1,51 +1,90 @@
 <!doctype html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        
         <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap&subset=latin-ext" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="assets/styles/home.css">
-        <title>&#127860; What to eat in NY</title>	
+        <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
+        <title>&#127860; What to eat in NY by Tiffany Nguyen</title>
+
+        <!--Copyright © 2020 Tiffany Nguyen. All illustrations, photos, and coding done by Tiffany Nguyen.-->
     </head>
 
     <body>
-        <!-- Text -->
-        <div id="title">
-            <h1>What to eat in</h1>
-            <h2>New York</h2>
-            <p>New York is notable for their delicious food varying from many countries. Here are some of the good eats I found during my short time in New York.</p>
-        </div>
+            <!--Info-->
+            <div id="info"><a href="https://tiffanytnguy.myportfolio.com/" target="_blank"><img src="assets/img/info.png" width="50px"></a></div>
+    
+            <!-- Text -->
+            <div id="title"><img src="assets/img/title.png" width="700px"></div>
 
-        <!-- All pins -->
-        <div id="pins">
-            <a href="tongpage.html"><img src="assets/img/pin.png" id="tong"></a>
-            <a href="rakupage.html"><img src="assets/img/pin.png" id="raku"></a>
-            <a href="kurapage.html"><img src="assets/img/pin.png" id="kura"></a>
-            <a href="smorgspage.html"><img src="assets/img/pin.png" id="smorgs"></a>
-            <a href="barnpage.html"><img src="assets/img/pin.png" id="barnjoo"></a>
-        </div>
-
-        <!-- Pop-up titles when hovered that are hidden using css class -->
-        <div id="hovers">
-            <div class="hover hidden" id="tonghover">
-                <img src="assets/img/tonghover.png">
-            </div>
-                
-            <div class="hover hidden" id="rakuhover">
-                <img src="assets/img/rakuhover.png"></div>
+            <!-- All pins -->
+            <div id="pinShadows">
+                <a href="tongPage.html"><img src="assets/img/pinshadow.png" id="tongS"></a>
+                <a href="bongPage.html"><img src="assets/img/pinshadow.png" id="bongS"></a>
+                <a href="rakuPage.html"><img src="assets/img/pinshadow.png" id="rakuS"></a>
+                <a href="kuraPage.html"><img src="assets/img/pinshadow.png" id="kuraS"></a>
+                <a href="smorgsPage.html"><img src="assets/img/pinshadow.png" id="smorgsS"></a>
             </div>
 
-            <div class="hover hidden" id="kurahover">
-                <img src="assets/img/kurahover.png"></div>
+            <div id="pins">
+                <a href="tongPage.html"><img src="assets/img/tongpin.png" id="tong"></a>
+                <a href="bongPage.html"><img src="assets/img/bongpin.png" id="bong"></a>
+                <a href="rakuPage.html"><img src="assets/img/rakupin.png" id="raku"></a>
+                <a href="kuraPage.html"><img src="assets/img/kurapin.png" id="kura"></a>
+                <a href="smorgsPage.html"><img src="assets/img/smorgspin.png" id="smorgs"></a>
             </div>
 
-            <div class="hover hidden" id="smorgshover">
-                <img src="assets/img/smorgshover.png"></div>
+            <div id="hoverPins">
+                <div class="hoverPin hidden" id="tongHoverPin">
+                    <a href="tongPage.html"><img src="assets/img/tonghoverpin.png"></a>
+                </div>
+
+                <div class="hoverPin hidden" id="bongHoverPin">
+                    <a href="bongPage.html"><img src="assets/img/bonghoverpin.png"></a>
+                </div>
+                    
+                <div class="hoverPin hidden" id="rakuHoverPin">
+                    <a href="rakuPage.html"><img src="assets/img/rakuhoverpin.png"></a>
+                </div>
+
+                <div class="hoverPin hidden" id="kuraHoverPin">
+                    <a href="kuraPage.html"><img src="assets/img/kurahoverpin.png"></a>
+                </div>
+
+                <div class="hoverPin hidden" id="smorgsHoverPin">
+                    <a href="smorgsPage.html"><img src="assets/img/smorgshoverpin.png"></a>
+                </div>
             </div>
 
-            <div class="hover hidden" id="barnhover">
-                <img src="assets/img/barnhover.png"></div>
-            </div>
-        </div>
+            <!-- Pop-up titles when hovered that are hidden using css class -->
+            <div id="hovers">
+                <div class="hover hidden" id="tonghover">
+                    <img src="assets/img/tonghover.png"></div>
+                </div>
 
-        <script type="text/javascript" src="assets/scripts/fp.js"></script>
+                <div class="hover hidden" id="bonghover">
+                    <img src="assets/img/bonghover.png"></div>
+                </div>
+                    
+                <div class="hover hidden" id="rakuhover">
+                    <img src="assets/img/rakuhover.png"></div>
+                </div>
+
+                <div class="hover hidden" id="kurahover">
+                    <img src="assets/img/kurahover.png"></div>
+                </div>
+
+                <div class="hover hidden" id="smorgshover">
+                    <img src="assets/img/smorgshover.png"></div>
+                </div>
+            </div>
+
+            <!--Hello-->
+            <div id="clicked"><img src="assets/img/clicked.png" width="500px"></div>
+            <div id="me"><img src="assets/img/me.png"></div>
+
+            <script type="text/javascript" src="assets/scripts/fp.js"></script>
     </body>
 </html>
