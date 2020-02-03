@@ -1,0 +1,361 @@
+body {
+    margin-top: 50px;
+    margin-left: 225px;
+    margin-right: 225px;
+
+    animation: fadeInLanding 1s ease-in 0s forwards;
+}
+
+/* Don't know if I want this as a background color: background-color: #F8F8F5; */
+
+/* FONTS */
+
+html {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+h1 {
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+b {
+    font-weight: 400;
+    color: #4279FB;
+}
+
+b:hover {
+    animation: fadeOut 0.5s ease-in 0s forwards;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.masthead2 a:hover, .aboutDesc a:hover {
+    animation: fadeOut 0.5s ease-in 0s forwards;
+}
+
+p {
+    font-weight: 700;
+}
+
+/* HELP: Center-alignment won't work? */
+
+.caption {
+    text-align: center;
+
+    opacity: 40%;
+}
+
+/* NAVBAR */
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+
+.navTitle {
+    margin: 20px;
+    font-size: 14px;
+
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    opacity: 30%;
+    letter-spacing: 1px;
+}
+
+.navTitleCurrent {
+    margin: 20px;
+    font-size: 14px;
+
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1.5px;
+}
+
+.navTitle:hover {
+    animation: fadeIn 0.5s ease-in 0s forwards;
+}
+
+/* INDEX */
+
+#masthead {
+    padding-top: 5%;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 20%;
+}
+
+.masthead1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+
+.masthead2 {
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+/*This is the grid*/
+
+#showcaseWork {
+    margin-top: 100px;
+    column-count: 2;
+    column-gap: 80px;
+    column-fill: auto;
+}
+
+.item img {
+    width: 450px;
+}
+
+.item {
+    margin-bottom: 100px;
+}
+
+.item img:hover {
+    animation: fadeOut 0.5s ease-in 0s forwards;
+}
+
+/* To zoom in on work
+HELP: When image expands, it goes over the original image border */
+
+/*.item img {
+    width: 450px;
+    transition: transform .15s ease-in;
+}
+
+.item {
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.item img:hover {
+    transform: scale(1.254);
+}*/
+
+/* ABOUTME CONTENT */
+
+#aboutMe {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutPhoto {
+    margin-right: 60px;
+}
+
+.aboutPhoto img {
+    width: 370px;
+}
+
+.aboutDesc {
+    line-height: 1.7;
+    width:60%;
+}
+
+.aboutTitle {
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+/* CASE STUDY PAGES */
+
+/* This is the intro section */
+
+.pageTagsText {
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.titleText {
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 30px;
+    margin-bottom: 25px;
+
+    width: 75%;
+}
+
+.titleTextExpand {
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.introSubText {
+    line-height: 1.7;
+    margin-bottom: 50px;
+
+    width: 90%;
+}
+
+#introDesc {
+    display: flex;
+    flex-direction: row;
+
+    opacity: 40%;
+
+    margin-bottom: 200px;
+}
+
+.descCat {
+    margin-right: 100px;
+}
+
+.descCatS {
+    margin-right: 60px;
+}
+
+/* Images */
+
+#pageImg img {
+    width: 970px;
+}
+
+#pageImg {
+    margin-bottom: 200px;
+}
+
+/* 30DAYSOEGGS PAGE */
+/* This is the grid portion */
+
+.gridImg img {
+    width: 250px;
+}
+
+.gridRow {
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 125px;
+}
+
+.itemS {
+    margin-right: 125px;
+}
+
+/* Start of case study */
+
+#pageSection {
+    margin-bottom: 200px;
+}
+
+.pageSectionTitle {
+    font-weight: 700;
+    opacity: 40%;
+    letter-spacing: 1px;
+
+    margin-bottom: 25px;
+    width: 970px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.titleTextNon {
+    font-size: 30px;
+    width: 70%;
+    line-height: 1.5;
+}
+
+.titleTextLink {
+    font-size: 30px;
+}
+
+/* Link won't align
+Check issue on whattoeatinny.html */
+
+.sectionInteraction {
+    text-align: center;
+}
+
+#row {
+    padding: 30px;
+}
+
+/* FOOTER */
+
+#footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon {
+    opacity: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+
+.icon:hover {
+    animation: fadeIn 0.5s ease-in 0s forwards;
+}
+
+.icon img {
+    height: 20px;
+}
+
+#media {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#copyright {
+    font-size: 12px;
+    opacity: 30%;
+}
+
+/* ANIMATIONS */
+
+/* Occurs when hovering over nav and footer links */
+@keyframes fadeIn {
+    from {
+        opacity: 30%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+/* Fade into page once landed */
+@keyframes fadeInLanding {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%
+    }
+}
+
+/* Fade out when hovering over links (NOT nav and footer links) */
+
+@keyframes fadeOut {
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 50%
+    }
+}
