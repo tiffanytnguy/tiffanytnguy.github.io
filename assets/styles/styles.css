@@ -4,6 +4,8 @@ html, body {
     margin-right: 8%;
 
     animation: fadeInLanding 1s ease-in 0s forwards;
+
+    background: #F8F8F5;
 }
 
 /* Don't know if I want this as a background color: background-color: #F8F8F5; */
@@ -12,7 +14,7 @@ html, body {
 
 html {
     font-family: 'Karla', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.7;
 
     scroll-behavior: smooth;
@@ -67,7 +69,7 @@ p {
 /* NAVBAR */
 
 .navName {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 700;
     text-decoration: none;
     letter-spacing: 1.5px;
@@ -157,15 +159,14 @@ label {
 /* INDEX */
 
 #masthead {
-    padding-top: 10%;
-    padding-bottom: 30%;
+    padding-top: 5%;
+    padding-bottom: 20%;
 }
 
 .masthead1 {
-    font-size: 30px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 1px;
     line-height: 1.5;
 }
 
@@ -292,7 +293,7 @@ HELP: When image expands, it goes over the original image border */
 /* Images */
 
 #pageImg img {
-    width: 970px;
+    width: 100%;
     max-width: 100%;
 }
 
