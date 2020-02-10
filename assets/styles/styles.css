@@ -118,7 +118,7 @@ p {
 
 .menu a {
     clear: right;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 label {
@@ -141,18 +141,17 @@ label {
     }
 
     .menu {
-        text-align: center;
         width: 100%;
         display: none;
     }
 
     .menu a {
         display: block;
-        margin: 0;
+        margin: 5px;
     }
 
     #toggle:checked + .menu {
-        display: block;
+        display: inline;
     }
 }
 
@@ -312,12 +311,9 @@ HELP: When image expands, it goes over the original image border */
 .gridRow {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
-    margin-bottom: 125px;
-}
-
-.itemS {
-    margin-right: 125px;
+    margin-bottom: 50px;
 }
 
 /* Start of case study */
@@ -348,9 +344,6 @@ HELP: When image expands, it goes over the original image border */
 .titleTextLink {
     font-size: 30px;
 }
-
-/* Link won't align
-Check issue on whattoeatinny.html */
 
 .sectionInteraction {
     text-align: center;
