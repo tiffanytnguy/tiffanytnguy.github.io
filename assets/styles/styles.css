@@ -134,27 +134,6 @@ label {
     display: none;
 }
 
-@media only screen and (max-width: 500px) {
-    label {
-        display: block;
-        cursor: pointer;
-    }
-
-    .menu {
-        width: 100%;
-        display: none;
-    }
-
-    .menu a {
-        display: block;
-        margin: 5px;
-    }
-
-    #toggle:checked + .menu {
-        display: inline;
-    }
-}
-
 /* INDEX */
 
 #masthead {
@@ -305,7 +284,6 @@ HELP: When image expands, it goes over the original image border */
 /* This is the grid portion */
 
 .gridImg img {
-    width: 250px;
     max-width: 100%;
 }
 
@@ -313,8 +291,10 @@ HELP: When image expands, it goes over the original image border */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
 
-    margin-bottom: 50px;
+.itemS {
+    margin: 2%;
 }
 
 /* Start of case study */
@@ -424,4 +404,72 @@ HELP: When image expands, it goes over the original image border */
     to {
         opacity: 50%
     }
-}3
+}
+
+/* RESPONSIVE  */
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+    /* nav */
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        margin: 5px;
+    }
+
+    #toggle:checked + .menu {
+        display: inline;
+    }
+
+    /* index.html */
+    #masthead, #showcaseWork {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* footer */
+    #footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #copyright {
+        margin-bottom: 10%;
+    }
+
+    /* about.html */
+    #aboutMe {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* case studies */
+    .intro, #introDesc, .container, #row1, #row2 {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* 30daysofeggs grid */
+    #grid, .gridRow {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+    }
+  }
