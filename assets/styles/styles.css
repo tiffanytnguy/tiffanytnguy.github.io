@@ -458,11 +458,20 @@ HELP: When image expands, it goes over the original image border */
     }
     
     /* case studies */
-    .intro, #introDesc, .container, #row1, #row2 {
+    .intro, #introDesc {
         width: 100%;
 
         display: flex;
         flex-direction: column;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    #row1, #row2 {
+        float: left;
+        width: 100%;
     }
 
     /* 30daysofeggs grid */
