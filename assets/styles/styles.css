@@ -316,6 +316,10 @@ HELP: When image expands, it goes over the original image border */
     flex-direction: row;
 }
 
+#row1, #row2 {
+    flex: 50%;
+}
+
 .titleTextNon {
     font-size: 30px;
     width: 70%;
@@ -331,7 +335,7 @@ HELP: When image expands, it goes over the original image border */
 }
 
 #row {
-    padding: 30px;
+    padding: 2%;
 }
 
 /* OTHER PROJECTS */
@@ -414,6 +418,8 @@ HELP: When image expands, it goes over the original image border */
     label {
         display: block;
         cursor: pointer;
+
+        position: absolute;
     }
 
     .menu {
@@ -438,6 +444,14 @@ HELP: When image expands, it goes over the original image border */
       flex-direction: column;
     }
 
+    .masthead1 {
+        font-size: 30px;
+    }
+    
+    .masthead2 {
+        font-size: 14px;
+    }
+
     /* footer */
     #footer {
         display: flex;
@@ -458,7 +472,7 @@ HELP: When image expands, it goes over the original image border */
     }
     
     /* case studies */
-    .intro, #introDesc {
+    .intro, #introDesc, .titleText, .titleTextNon {
         width: 100%;
 
         display: flex;
@@ -466,11 +480,11 @@ HELP: When image expands, it goes over the original image border */
     }
 
     .container {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     #row1, #row2 {
-        float: left;
         width: 100%;
     }
 
