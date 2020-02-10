@@ -22,7 +22,7 @@ html {
 
 h1 {
     font-weight: 700;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -215,28 +215,29 @@ HELP: When image expands, it goes over the original image border */
 
 /* ABOUTME CONTENT */
 
+.aboutMeTop {
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
 #aboutMe {
     display: flex;
     flex-direction: row;
 }
 
-.aboutPhoto {
-    margin-right: 60px;
-}
-
 .aboutPhoto img {
-    width: 370px;
     max-width: 100%;
 }
 
 .aboutDesc {
     line-height: 1.7;
-    width:60%;
 }
 
 .aboutTitle {
     font-weight: 700;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
 }
 
 /* CASE STUDY PAGES */
