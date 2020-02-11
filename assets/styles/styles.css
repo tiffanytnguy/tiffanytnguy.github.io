@@ -1,5 +1,5 @@
 html, body {
-    margin-top: 50px;
+    margin-top: 3%;
     margin-left: 8%;
     margin-right: 8%;
 
@@ -15,7 +15,7 @@ html, body {
 html {
     font-family: 'Karla', sans-serif;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 2;
 
     scroll-behavior: smooth;
 }
@@ -105,7 +105,7 @@ p {
     flex-direction: row;
     justify-content: space-between;
 
-    margin-bottom: 50px;
+    margin-bottom: 10%;
 }
 
 .nav {
@@ -137,7 +137,6 @@ label {
 /* INDEX */
 
 #masthead {
-    padding-top: 5%;
     padding-bottom: 20%;
 }
 
@@ -194,24 +193,19 @@ HELP: When image expands, it goes over the original image border */
 
 /* ABOUTME CONTENT */
 
-.aboutMeTop {
-    font-size: 45px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 1.5;
-}
-
 #aboutMe {
     display: flex;
     flex-direction: row;
+
+    margin-top: 5%;
+}
+
+.about {
+    flex: 50%;
 }
 
 .aboutPhoto img {
     max-width: 100%;
-}
-
-.aboutDesc {
-    line-height: 1.7;
 }
 
 .aboutTitle {
@@ -246,7 +240,6 @@ HELP: When image expands, it goes over the original image border */
 }
 
 .introSubText {
-    line-height: 1.7;
     margin-bottom: 50px;
 
     width: 90%;
