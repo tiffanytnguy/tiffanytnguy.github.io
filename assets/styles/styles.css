@@ -434,8 +434,6 @@ HELP: When image expands, it goes over the original image border */
         display: block;
         cursor: pointer;
 
-        position: block;
-
         float: left;
     }
 
@@ -460,11 +458,16 @@ HELP: When image expands, it goes over the original image border */
     }
 
     /* index.html */
-    #masthead, #showcaseWork {
-      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    #content, #showcaseWork {
+      width: 100%;
       
       display: flex;
       flex-direction: column;
+    }
+
+    #masthead {
+        padding: 0%;
+        margin: 0%;
     }
 
     .masthead1 {
@@ -472,11 +475,11 @@ HELP: When image expands, it goes over the original image border */
     }
     
     .masthead2 {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     /* about.html */
-    #aboutMe, .aboutBody, .col {   
+    #aboutMe, .aboutBody, .col1, .col2 {   
         width: 100%;
         
         display: flex;
@@ -484,7 +487,7 @@ HELP: When image expands, it goes over the original image border */
     }
 
     .aboutMasthead {
-        font-size: 20px;
+        font-size: 17px;
     }
     
     /* case studies */
