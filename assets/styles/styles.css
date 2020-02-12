@@ -447,6 +447,12 @@ HELP: When image expands, it goes over the original image border */
     .menu a {
         display: block;
         margin: 5px;
+
+        font-weight: 400;
+    }
+
+    .navTitleLand:hover {
+        font-weight: 400;
     }
 
     #toggle:checked + .menu {
