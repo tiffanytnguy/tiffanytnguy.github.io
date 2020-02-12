@@ -125,8 +125,8 @@ label {
 /* INDEX */
 
 #masthead {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
     padding-bottom: 5%;
 }
 
@@ -140,7 +140,7 @@ label {
 }
 
 .masthead2 {
-    font-size: 13px;
+    font-size: 14px;
 
     text-align: center;
 }
@@ -369,7 +369,7 @@ HELP: When image expands, it goes over the original image border */
 }
 
 #copyright {
-    font-size:10px;
+    font-size: 12px;
     letter-spacing: 2px;
 
     display: flex;
@@ -470,7 +470,7 @@ HELP: When image expands, it goes over the original image border */
     }
 
     /* about.html */
-    #aboutMe {   
+    #aboutMe, .aboutBody, .col {   
         width: 100%;
         
         display: flex;
