@@ -1,11 +1,9 @@
 html, body {
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: 8%;
     margin-right: 8%;
 
     animation: fadeInLanding 1s ease-in 0s forwards;
-
-    background: #F8F8F5;
 }
 
 /* Don't know if I want this as a background color: background-color: #F8F8F5; */
@@ -68,57 +66,47 @@ p {
 
 /* NAVBAR */
 
-.navName {
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-    letter-spacing: 1.5px;
-}
-
 .navTitle {
     font-size: 14px;
-    font-weight: 700;
     text-decoration: none;
-    color: black;
-    opacity: 30%;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
 }
 
-.navTitleCurrent {
+.navTitleLand {
     font-size: 14px;
-
     font-weight: 700;
     text-decoration: none;
-    color: black;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
+}
 
-    border-bottom: 2.5px solid;
+.navTitleLand:hover {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+    border-bottom: 2px solid;
     border-bottom-color: #4279FB;
 }
 
 .navTitle:hover {
-    animation: fadeIn 0.5s ease-in 0s forwards;
-}
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 2px;
 
-#nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    margin-bottom: 10%;
+    border-bottom: 2px solid;
+    border-bottom-color: #4279FB;
 }
 
 .nav {
-    text-align: right;
+    margin-bottom: 10%;
 }
 
 .menu {
-    margin: 0 30px 0 0;
-}
-
-.menu a {
-    clear: right;
-    margin: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 label {
@@ -137,19 +125,24 @@ label {
 /* INDEX */
 
 #masthead {
-    padding-bottom: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
 }
 
 .masthead1 {
-    font-size: 45px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 1.5;
+    text-align: center;
+
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .masthead2 {
-    line-height: 1.7;
-    font-size: 16px;
+    font-size: 13px;
+
+    text-align: center;
 }
 
 /*This is the grid*/
@@ -195,17 +188,43 @@ HELP: When image expands, it goes over the original image border */
 
 #aboutMe {
     display: flex;
+    flex-direction: column;
+
+    margin-top: 10%;
+}
+
+.aboutMasthead {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 20%;
+
+    font-size: 30px;
+    text-align: center;
+}
+
+.aboutBody {
+    display: flex;
     flex-direction: row;
-
-    margin-top: 5%;
+    justify-content: space-between;
 }
 
-.about {
-    flex: 50%;
-}
-
-.aboutPhoto img {
+.aboutDesc img {
+    width: 1200px;
     max-width: 100%;
+}
+
+.aboutWords{
+    padding-left: 5%;
+}
+
+.col1 {
+    width: 50%;
+    float: left;
+}
+
+.col2 {
+    width: 50%;
+    float: right;
 }
 
 .aboutTitle {
@@ -337,12 +356,26 @@ HELP: When image expands, it goes over the original image border */
 /* FOOTER */
 
 #footer {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
 
+#media {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+
+    margin-bottom: 10px;
+}
+
+#copyright {
+    font-size:10px;
+    letter-spacing: 2px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon {
@@ -357,17 +390,6 @@ HELP: When image expands, it goes over the original image border */
 
 .icon img {
     height: 20px;
-}
-
-#media {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-}
-
-#copyright {
-    font-size: 12px;
-    opacity: 30%;
 }
 
 /* ANIMATIONS */
@@ -412,7 +434,9 @@ HELP: When image expands, it goes over the original image border */
         display: block;
         cursor: pointer;
 
-        position: absolute;
+        position: block;
+
+        float: left;
     }
 
     .menu {
@@ -438,30 +462,23 @@ HELP: When image expands, it goes over the original image border */
     }
 
     .masthead1 {
-        font-size: 30px;
+        font-size: 20px;
     }
     
     .masthead2 {
-        font-size: 14px;
-    }
-
-    /* footer */
-    #footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #copyright {
-        margin-bottom: 10%;
+        font-size: 12px;
     }
 
     /* about.html */
-    #aboutMe {
-        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    #aboutMe {   
+        width: 100%;
         
         display: flex;
         flex-direction: column;
+    }
+
+    .aboutMasthead {
+        font-size: 20px;
     }
     
     /* case studies */
