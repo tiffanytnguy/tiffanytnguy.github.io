@@ -78,6 +78,9 @@ p {
     font-weight: 700;
     text-decoration: none;
     letter-spacing: 2px;
+
+    border-bottom: 2px solid;
+    border-bottom-color: #4279FB;
 }
 
 .navTitleLand:hover {
