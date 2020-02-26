@@ -4,6 +4,7 @@ html, body {
     margin-right: 8%;
 
     animation: fadeInLanding 1s ease-in 0s forwards;
+    background-color: #f9f9f9;
 }
 
 /* Don't know if I want this as a background color: background-color: #F8F8F5; */
@@ -67,20 +68,17 @@ p {
 /* NAVBAR */
 
 .navTitle {
-    font-size: 14px;
     text-decoration: none;
     letter-spacing: 2px;
 }
 
 .navTitleLand {
-    font-size: 14px;
     font-weight: 700;
     text-decoration: none;
     letter-spacing: 2px;
 }
 
 .navTitleLand:hover {
-    font-size: 14px;
     font-weight: 700;
     text-decoration: none;
     letter-spacing: 2px;
@@ -90,7 +88,6 @@ p {
 }
 
 .navTitle:hover {
-    font-size: 14px;
     text-decoration: none;
     letter-spacing: 2px;
 
@@ -125,15 +122,15 @@ label {
 /* INDEX */
 
 #masthead {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 5%;
 }
 
 .masthead1 {
     text-align: center;
 
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -143,6 +140,11 @@ label {
     font-size: 14px;
 
     text-align: center;
+}
+
+video {
+    margin-bottom: 5%;
+    border: 10px solid white;
 }
 
 /*This is the grid*/
@@ -289,7 +291,7 @@ HELP: When image expands, it goes over the original image border */
 }
 
 #pageImg {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 /* 30DAYSOEGGS PAGE */
@@ -312,7 +314,7 @@ HELP: When image expands, it goes over the original image border */
 /* Start of case study */
 
 #pageSection {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .pageSectionTitle {
@@ -320,7 +322,7 @@ HELP: When image expands, it goes over the original image border */
     opacity: 40%;
     letter-spacing: 1px;
 
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .container {
@@ -338,6 +340,14 @@ HELP: When image expands, it goes over the original image border */
     line-height: 1.5;
 }
 
+.titleTextCenter {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+
+    text-align: center;
+}
+
 .titleTextLink {
     font-size: 30px;
 }
@@ -347,7 +357,13 @@ HELP: When image expands, it goes over the original image border */
 }
 
 #row {
-    padding: 2%;
+    padding: 3%;
+    align-items: center;
+    text-align: center;
+}
+
+#row img {
+    width: 280px;
 }
 
 /* OTHER PROJECTS */
@@ -513,5 +529,9 @@ HELP: When image expands, it goes over the original image border */
 
         display: flex;
         flex-direction: column;
+    }
+
+    #row img {
+        width: 100%;
     }
   }
