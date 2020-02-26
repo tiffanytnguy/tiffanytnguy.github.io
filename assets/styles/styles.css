@@ -3,7 +3,7 @@ html, body {
     margin-left: 8%;
     margin-right: 8%;
 
-    animation: fadeInLanding 1s ease-in 0s forwards;
+    animation: fadeInLanding 1s ease-in 0s;
     background-color: #f9f9f9;
 }
 
@@ -57,6 +57,7 @@ a {
 
 p {
     font-weight: 700;
+    line-height: 0;
 }
 
 .caption {
@@ -70,6 +71,7 @@ p {
 .navTitle {
     text-decoration: none;
     letter-spacing: 2px;
+    font-weight: 700;
 }
 
 .navTitleLand {
@@ -272,7 +274,7 @@ HELP: When image expands, it goes over the original image border */
 
     opacity: 40%;
 
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .descCat {
@@ -291,7 +293,7 @@ HELP: When image expands, it goes over the original image border */
 }
 
 #pageImg {
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 /* 30DAYSOEGGS PAGE */
@@ -365,8 +367,6 @@ HELP: When image expands, it goes over the original image border */
 #row img {
     width: 280px;
 }
-
-/* OTHER PROJECTS */
 
 
 /* FOOTER */
