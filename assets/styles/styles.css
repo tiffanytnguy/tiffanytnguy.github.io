@@ -248,7 +248,7 @@ HELP: When image expands, it goes over the original image border */
     font-weight: 700;
     line-height: 1.5;
     font-size: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 
     width: 75%;
 }
@@ -291,7 +291,7 @@ HELP: When image expands, it goes over the original image border */
 }
 
 #pageImg {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 /* 30DAYSOEGGS PAGE */
@@ -314,7 +314,7 @@ HELP: When image expands, it goes over the original image border */
 /* Start of case study */
 
 #pageSection {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .pageSectionTitle {
