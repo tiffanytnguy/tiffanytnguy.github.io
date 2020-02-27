@@ -51,7 +51,7 @@ a {
     color: black;
 }
 
-.masthead2 a:hover, .aboutDesc a:hover {
+.aboutDesc a:hover {
     animation: fadeOut 0.5s ease-in 0s forwards;
 }
 
@@ -127,24 +127,16 @@ label {
 /* INDEX */
 
 #masthead {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .masthead1 {
     text-align: center;
 
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.masthead2 {
-    font-size: 14px;
-
-    text-align: center;
 }
 
 video {
@@ -491,10 +483,6 @@ HELP: When image expands, it goes over the original image border */
 
     .masthead1 {
         font-size: 20px;
-    }
-    
-    .masthead2 {
-        font-size: 14px;
     }
 
     /* about.html */
