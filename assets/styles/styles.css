@@ -127,8 +127,8 @@ label {
 /* INDEX */
 
 #masthead {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .masthead1 {
@@ -136,7 +136,7 @@ label {
 
     font-size: 25px;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 video {
