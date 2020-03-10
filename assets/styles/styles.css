@@ -166,23 +166,6 @@ video {
     animation: fadeOut 0.5s ease-in 0s forwards;
 }
 
-/* To zoom in on work
-HELP: When image expands, it goes over the original image border */
-
-/*.item img {
-    width: 450px;
-    transition: transform .15s ease-in;
-}
-
-.item {
-    margin-bottom: 100px;
-    overflow: hidden;
-}
-
-.item img:hover {
-    transform: scale(1.254);
-}*/
-
 /* ABOUTME CONTENT */
 
 #aboutMe {
@@ -235,14 +218,8 @@ HELP: When image expands, it goes over the original image border */
 
 /* This is the intro section */
 
-.pageTagsText {
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-bottom: 25px;
-}
-
 .titleText {
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.5;
     font-size: 30px;
     margin-bottom: 10px;
@@ -251,7 +228,7 @@ HELP: When image expands, it goes over the original image border */
 }
 
 .titleTextExpand {
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.5;
     font-size: 30px;
     margin-bottom: 25px;
@@ -260,7 +237,7 @@ HELP: When image expands, it goes over the original image border */
 .introSubText {
     margin-bottom: 50px;
 
-    width: 90%;
+    width: 70%;
 }
 
 #introDesc {
@@ -325,6 +302,10 @@ HELP: When image expands, it goes over the original image border */
 .container {
     display: flex;
     flex-direction: row;
+}
+
+.containerSmall {
+    width: 70%;
 }
 
 #row1, #row2 {
@@ -445,7 +426,7 @@ HELP: When image expands, it goes over the original image border */
         display: block;
         cursor: pointer;
 
-        float: left;
+        float: right;
     }
 
     .menu {
@@ -508,6 +489,10 @@ HELP: When image expands, it goes over the original image border */
     .container {
         display: flex;
         flex-direction: column;
+    }
+
+    .containerSmall {
+        width: 100%;
     }
 
     #row1, #row2 {
