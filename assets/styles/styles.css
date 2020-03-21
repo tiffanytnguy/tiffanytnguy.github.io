@@ -57,7 +57,10 @@ a {
 
 p {
     font-weight: 700;
-    line-height: 0;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 .caption {
@@ -146,15 +149,22 @@ video {
 
 /*This is the grid*/
 
+#columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blank {
+    width: 60%;
+}
+
 #showcaseWork {
     margin-top: 100px;
-    column-count: 2;
-    column-gap: 80px;
-    column-fill: auto;
 }
 
 .item img {
-    width: 450px;
+    width: 100%;
     max-width: 100%;
 }
 
@@ -450,7 +460,7 @@ video {
     }
 
     /* index.html */
-    #content, #showcaseWork {
+    #content, #columns, #showcaseWork {
       width: 100%;
       
       display: flex;
