@@ -7,21 +7,19 @@ html, body {
     background-color: #f9f9f9;
 }
 
-/* Don't know if I want this as a background color: background-color: #F8F8F5; */
-
-/* FONTS */
+/********** FONTS **********/
 
 html {
     font-family: 'Karla', sans-serif;
     font-size: 14px;
-    line-height: 2;
+    line-height: 1.7;
 
     scroll-behavior: smooth;
 }
 
 h1 {
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 1.7px;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -69,7 +67,7 @@ p {
     opacity: 40%;
 }
 
-/* NAVBAR */
+/********** NAVBAR **********/
 
 .navTitle {
     text-decoration: none;
@@ -127,7 +125,7 @@ label {
     display: none;
 }
 
-/* INDEX */
+/********** INDEX **********/
 
 #masthead {
     padding-left: 25%;
@@ -142,12 +140,7 @@ label {
     letter-spacing: 1px;
 }
 
-video {
-    margin-bottom: 5%;
-    border: 10px solid white;
-}
-
-/*This is the grid*/
+/***** This is the grid ******/
 
 #columns {
     display: flex;
@@ -176,7 +169,7 @@ video {
     animation: fadeOut 0.5s ease-in 0s forwards;
 }
 
-/* ABOUTME CONTENT */
+/********** ABOUTME CONTENT **********/
 
 #aboutMe {
     display: flex;
@@ -224,136 +217,166 @@ video {
     letter-spacing: 2px;
 }
 
-/* CASE STUDY PAGES */
+/********** CASE STUDY **********/
 
-/* This is the intro section */
+/***** Intro section *****/
+
+.tag {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.imageHeader {
+    display: flex;
+    justify-content: center;
+}
+
+#imageHeader {
+    margin-bottom: 200px;
+}
+
+.imageHeader img {
+    width: 100%;
+    max-width: 100%;
+}
 
 .titleText {
     font-weight: 400;
     line-height: 1.5;
     font-size: 30px;
-    margin-bottom: 10px;
-
-    width: 75%;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
-.titleTextExpand {
-    font-weight: 400;
-    line-height: 1.5;
-    font-size: 30px;
-    margin-bottom: 25px;
+#introDetails {
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 200px;
 }
 
 .introSubText {
     margin-bottom: 50px;
-
-    width: 70%;
+    font-size: 30px;
+    line-height: 1.5;
+    width: 90%;
 }
 
-#introDesc {
-    display: flex;
-    flex-direction: row;
+.introBlank {
+    width: 20%;
+}
 
-    opacity: 40%;
+.introDesc {
+    width: 30%;
+}
 
-    margin-bottom: 150px;
+.descCatTitle {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 20%;
 }
 
 .descCat {
-    margin-right: 100px;
+    margin-bottom: 20px;
 }
 
-.descCatS {
-    margin-right: 60px;
+/***** Case study content *****/
+
+video {
+    border: 10px solid white;
 }
 
-/* Images */
-
-#pageImg img {
-    width: 100%;
-    max-width: 100%;
+.caption {
+    margin-top: 1%;
 }
-
-#pageImg {
-    margin-bottom: 150px;
-}
-
-/* 30DAYSOEGGS PAGE */
-/* This is the grid portion */
-
-.gridImg img {
-    max-width: 100%;
-}
-
-.gridRow {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.itemS {
-    margin: 2%;
-}
-
-/* Start of case study */
 
 #pageSection {
     margin-bottom: 200px;
 }
 
 .pageSectionTitle {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     font-weight: 700;
-    opacity: 40%;
-    letter-spacing: 1px;
+    opacity: 20%;
 
-    margin-bottom: 15px;
+    margin-bottom: 2%;
 }
 
-.container {
+.sectionText {
+    font-size: 30px;
+    width: 70%;
+    line-height: 1.5;
+}
+
+.sectionSubText {
+    width: 60%;
+    margin-left: 40%;
+}
+
+.sectionSubTextLong {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sectionSubTextHalf {
+    width: 70%;
+}
+
+.sectionSubTextHalfNon {
+    width: 50%;
+    margin-left: 50%;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.item1 img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.divide {
     display: flex;
     flex-direction: row;
 }
 
-.containerSmall {
-    width: 70%;
-}
-
-#row1, #row2 {
-    flex: 50%;
-}
-
-.titleTextNon {
+.sectionText2 {
     font-size: 30px;
-    width: 70%;
-    line-height: 1.5;
-}
-
-.titleTextCenter {
-    font-size: 30px;
-    font-weight: 700;
+    width: 60%;
     line-height: 1.5;
 
-    text-align: center;
+    margin-right: 10%;
 }
 
-.titleTextLink {
-    font-size: 30px;
+.mobile video {
+    width: 20%;
 }
 
-.sectionInteraction {
-    text-align: center;
+.mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-#row {
-    padding: 3%;
+.center {
+    margin-left: 25%;
+    margin-right: 25%;
+
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
 }
-
-#row img {
-    width: 280px;
-}
-
 
 /* FOOTER */
 
@@ -399,7 +422,7 @@ video {
 /* Occurs when hovering over nav and footer links */
 @keyframes fadeIn {
     from {
-        opacity: 30%;
+        opacity: 20%;
     }
     to {
         opacity: 100%;
