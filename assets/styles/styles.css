@@ -378,7 +378,7 @@ video {
     align-items: center;
 }
 
-/* FOOTER */
+/********** FOOTER **********/
 
 #footer {
     margin-top: 15%;
@@ -417,7 +417,7 @@ video {
     height: 20px;
 }
 
-/* ANIMATIONS */
+/********** ANIMATIONS **********/
 
 /* Occurs when hovering over nav and footer links */
 @keyframes fadeIn {
@@ -450,9 +450,10 @@ video {
     }
 }
 
-/* RESPONSIVE  */
+/********** RESPONSIVE **********/
 
 /* Use a media query to add a breakpoint at 800px: */
+
 @media screen and (max-width: 800px) {
     /* nav */
     label {
@@ -512,35 +513,39 @@ video {
     }
     
     /* case studies */
-    .intro, #introDesc, .titleText, .titleTextNon {
+    .intro, #introDetails, #pageSection, .divide, .center {
         width: 100%;
 
         display: flex;
         flex-direction: column;
     }
 
-    .container {
+    .center {
+        margin: 0%;
+    }
+
+    .item1 {
+        margin-bottom: 20%;
+    }
+
+    .sectionSubTextLong {
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
-    .containerSmall {
+    .sectionSubTextHalfNon, .sectionText, .sectionSubText, .sectionSubTextLong, .sectionSubTextHalf, .sectionSubTextHalfNon, .sectionText2 {
         width: 100%;
+        margin: 0%;
+        max-width: 100%;
     }
 
-    #row1, #row2 {
+    .mobile video {
         width: 100%;
+        margin-bottom: 20%;
     }
 
-    /* 30daysofeggs grid */
-    #grid, .gridRow {
-        width: 100%;
-
-        display: flex;
-        flex-direction: column;
-    }
-
-    #row img {
-        width: 100%;
+    .sectionText, .sectionText2, .titleText, .introSubText {
+        font-size: 18px;
     }
   }
