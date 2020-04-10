@@ -58,15 +58,17 @@ h1 {
     text-transform: uppercase;
 }
 
-.otherProjects a {
+#projects a {
     opacity: 40%;
+    font-size: 20px;
 }
 
-.otherProjects a:hover {
+#projects a:hover {
     border-bottom: 2.5px solid;
     border-bottom-color: #4279FB;
 
     opacity: 100%;
+    font-size: 20px;
 }
 
 b {
