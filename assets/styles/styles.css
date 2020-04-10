@@ -7,6 +7,40 @@ html, body {
     background-color: #f9f9f9;
 }
 
+/********** WHITE BORDER  **********/
+
+#top, #bottom, #left, #right {
+	background: #ffffff;
+	position: fixed;
+}
+
+#left, #right {
+    top: 0; bottom: 0;
+    width: 15px;
+}
+
+#left { left: 0; }
+#right { right: 0; }
+		
+#top, #bottom {
+    left: 0; right: 0;
+    height: 15px;
+}
+
+#top { top: 0; }
+#bottom { bottom: 0; }
+
+@media 
+/* Fairly small screens including iphones */
+only screen and (max-width: 500px),
+
+/* iPads */
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+
+{
+#top, #bottom, #left, #right { display: none; }
+}
+
 /********** FONTS **********/
 
 html {
@@ -181,6 +215,7 @@ label {
 .aboutMasthead {
     padding-right: 10%;
     padding-left: 10%;
+    padding-top: 5%;
     padding-bottom: 20%;
 
     font-size: 30px;
@@ -194,7 +229,7 @@ label {
 }
 
 .aboutDesc img {
-    width: 1200px;
+    width: 1500px;
     max-width: 100%;
 }
 
@@ -387,12 +422,16 @@ video {
 #footer {
     margin-top: 15%;
     margin-bottom: 5%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #media {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
 
     margin-bottom: 10px;
 }
@@ -403,22 +442,22 @@ video {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
 }
 
 .icon {
     opacity: 30%;
     margin-left: 20px;
     margin-right: 20px;
- }
+}
 
 .icon:hover {
     animation: fadeIn 0.5s ease-in 0s forwards;
 }
 
 .icon img {
-    height: 20px;
+    height: 25px;
 }
 
 /********** ANIMATIONS **********/
@@ -465,6 +504,7 @@ video {
         cursor: pointer;
 
         float: right;
+        margin-bottom: 10%;
     }
 
     .menu {
