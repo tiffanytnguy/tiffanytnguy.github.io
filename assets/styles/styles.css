@@ -59,7 +59,7 @@ h1 {
 }
 
 #projects a {
-    opacity: 40%;
+    opacity: 20%;
     font-size: 20px;
 }
 
@@ -108,7 +108,15 @@ p {
 .navTitle {
     text-decoration: none;
     letter-spacing: 2px;
+}
+
+.navMainLand {
     font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+    border-bottom: 2px solid;
+    border-bottom-color: #4279FB;
 }
 
 .navTitleLand {
@@ -449,7 +457,7 @@ video {
 }
 
 .icon {
-    opacity: 30%;
+    opacity: 20%;
     margin-left: 20px;
     margin-right: 20px;
 }
