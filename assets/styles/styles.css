@@ -131,6 +131,14 @@ p {
     opacity: 20%;
 }
 
+.navTitleLanding {
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    opacity: 100%;
+    color: #4279FB;
+}
+
 .navTitle:hover {
     opacity: 100%;
     color: #4279FB;
