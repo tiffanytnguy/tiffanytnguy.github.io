@@ -44,7 +44,8 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 /********** FONTS **********/
 
 html {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
     font-size: 15px;
     line-height: 1.7;
 
@@ -52,7 +53,7 @@ html {
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 1.7px;
     font-size: 16px;
     text-transform: uppercase;
@@ -90,11 +91,11 @@ a {
 }
 
 p {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .bold {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .caption {
@@ -105,55 +106,45 @@ p {
 
 /********** NAVBAR **********/
 
-.navTitle {
+.home {
+    font-weight: 500;
     text-decoration: none;
     letter-spacing: 2px;
-}
-
-.navMainLand {
-    font-weight: 700;
-    text-decoration: none;
-    letter-spacing: 2px;
-
-    border-bottom: 2px solid;
-    border-bottom-color: #4279FB;
-}
-
-.navTitleLand {
-    font-weight: 700;
-    text-decoration: none;
-    letter-spacing: 2px;
-
-    border-bottom: 2px solid;
-    border-bottom-color: #4279FB;
-}
-
-.navTitleLand:hover {
-    font-weight: 700;
-    text-decoration: none;
-    letter-spacing: 2px;
-
-    border-bottom: 2px solid;
-    border-bottom-color: #4279FB;
-}
-
-.navTitle:hover {
-    text-decoration: none;
-    letter-spacing: 2px;
-
-    border-bottom: 2px solid;
-    border-bottom-color: #4279FB;
-}
-
-.nav {
-    margin-bottom: 10%;
 }
 
 .menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+}
+
+.side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navTitle {
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.navTitle:hover {
+    color: #4279FB;
+}
+
+.navTitleLand {
+    color: #4279FB;
+}
+
+.sideBlank {
+    width: 50px;
+}
+
+.nav {
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 label {
@@ -239,7 +230,7 @@ label {
 }
 
 .aboutDesc img {
-    width: 1500px;
+    width: 1600px;
     max-width: 100%;
 }
 
@@ -262,7 +253,7 @@ label {
 }
 
 .aboutTitle {
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 2px;
 }
 
@@ -292,7 +283,7 @@ label {
 }
 
 .titleText {
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.5;
     font-size: 30px;
     margin-bottom: 50px;
@@ -351,7 +342,7 @@ video {
     font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     opacity: 20%;
 
     margin-bottom: 2%;
