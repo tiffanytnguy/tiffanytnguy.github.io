@@ -47,7 +47,7 @@ html {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    line-height: 1.7;
+    line-height: 1.8;
 
     scroll-behavior: smooth;
 }
@@ -108,6 +108,7 @@ p {
 
 .home {
     font-weight: 500;
+    font-size: 20px;
     letter-spacing: 2px;
 }
 
@@ -125,6 +126,7 @@ p {
 
 .navTitle {
     font-weight: 500;
+    font-size: 13px;
     text-decoration: none;
     letter-spacing: 2px;
 
@@ -133,6 +135,7 @@ p {
 
 .navTitleLanding {
     font-weight: 500;
+    font-size: 13px;
     text-decoration: none;
     letter-spacing: 2px;
     opacity: 100%;
@@ -171,16 +174,12 @@ label {
 }
 
 /********** INDEX **********/
-
 #masthead {
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-right: 20%;
 }
 
 .masthead1 {
-    text-align: center;
-
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 400;
     letter-spacing: 1px;
 }
@@ -218,25 +217,9 @@ label {
 
 #aboutMe {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     margin-top: 10%;
-}
-
-.aboutMasthead {
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-top: 5%;
-    padding-bottom: 20%;
-
-    font-size: 30px;
-    text-align: center;
-}
-
-.aboutBody {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .aboutDesc img {
@@ -244,27 +227,13 @@ label {
     max-width: 100%;
 }
 
-.aboutWords{
-    padding-left: 5%;
+.aboutDesc {
+    padding-bottom: 5%;
 }
 
-.moreInfo {
+.aboutWords {
+    margin-left: 5%;
     margin-bottom: 5%;
-}
-
-.col1 {
-    width: 50%;
-    float: left;
-}
-
-.col2 {
-    width: 50%;
-    float: right;
-}
-
-.aboutTitle {
-    font-weight: 500;
-    letter-spacing: 2px;
 }
 
 /********** CASE STUDY **********/
@@ -432,44 +401,33 @@ video {
 /********** FOOTER **********/
 
 #footer {
-    margin-top: 15%;
-    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 10%;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+.connect {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
 #media {
     display: flex;
     flex-direction: row;
-    justify-content: left;
-
-    margin-bottom: 10px;
-}
-
-#copyright {
-    font-size: 12px;
-    letter-spacing: 2px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-}
-
-.icon {
-    opacity: 20%;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.icon:hover {
-    animation: fadeIn 0.5s ease-in 0s forwards;
+    justify-content: right;
 }
 
 .icon img {
     height: 25px;
+    padding-left: 30px;
+}
+
+.icon:hover {
+    animation: fadeOut 0.5s ease-in 0s forwards;
 }
 
 /********** ANIMATIONS **********/
@@ -553,19 +511,15 @@ video {
     }
 
     .masthead1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     /* about.html */
-    #aboutMe, .aboutBody, .col1, .col2 {   
+    #aboutMe, .col1, .col2 {   
         width: 100%;
         
         display: flex;
         flex-direction: column;
-    }
-
-    .aboutMasthead {
-        font-size: 17px;
     }
     
     /* case studies */
@@ -611,17 +565,25 @@ video {
 
     /* footer */
     #footer {
+        width: 100%;
+
         display: flex;
         flex-direction: column;
-
-        align-items: center;
     }
 
-    #media {
-        margin-top: 2%;
+    .aboutWords {
+        margin-left: 0%;
     }
 
-    #copyright {
-        align-items: center;
+    .connect {
+        font-size: 18px;
+        padding-bottom: 5%;
     }
+
+    #media .icon img {
+        padding-left: 0%;
+        padding-right: 50%;
+    }
+
+
   }
