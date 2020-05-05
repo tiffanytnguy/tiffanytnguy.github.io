@@ -220,10 +220,14 @@ label {
     flex-direction: row;
 
     margin-top: 10%;
+    margin-bottom: 10%;
+
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .aboutDesc img {
-    width: 1800px;
+    width: 1900px;
     max-width: 100%;
 }
 
@@ -232,7 +236,7 @@ label {
 }
 
 .aboutWords {
-    margin-left: 5%;
+    margin-left: 7%;
     margin-bottom: 5%;
 }
 
