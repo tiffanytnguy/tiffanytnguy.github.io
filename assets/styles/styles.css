@@ -264,7 +264,9 @@ label {
 .titleText {
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 1px;
     font-size: 30px;
+
     margin-bottom: 50px;
     text-align: center;
 }
