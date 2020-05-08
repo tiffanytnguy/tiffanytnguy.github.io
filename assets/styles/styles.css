@@ -151,7 +151,7 @@ label {
     font-size: 30px;
     text-align: center;
     letter-spacing: 1px;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
 }
 
 .masthead2 {
@@ -160,12 +160,16 @@ label {
 
 .selectedWork {
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 13px;
+    letter-spacing: 4px;
+    font-size: 12px;
 }
 
 .point {
     font-size: 40px;
+}
+
+.point:hover {
+    animation: upDown 0.5s ease-in-out 0s infinite alternate;
 }
 
 /***** This is the grid ******/
@@ -185,7 +189,7 @@ label {
 }
 
 .item img {
-    width: 100%;
+    width: 4000px;
     max-width: 100%;
 }
 
@@ -427,6 +431,16 @@ video {
 }
 
 /********** ANIMATIONS **********/
+
+/* It go bouncy bounce */
+@keyframes upDown {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(20px);
+    }
+} 
 
 /* Occurs when hovering over nav and footer links */
 @keyframes fadeIn {
