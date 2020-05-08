@@ -1,3 +1,12 @@
+/* ANIMATE: Click .point and scroll down to select projects */
+
+$(".point").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#columns").offset().top},
+        'slow');
+});
+
+/* tbd below */
 
 /* ANIMATE: Make hover items pop up when hovering over project square */
 
