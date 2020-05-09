@@ -5,9 +5,7 @@ html, body {
 
     animation: fadeInLanding 1s ease-in 0s;
     background-color: #f9f9f9;
-}
 
-body {
     scroll-behavior: smooth;
 }
 
@@ -211,10 +209,10 @@ label {
 }
 
 .aboutDesc img {
-    width: 2000px;
+    width: 1600px;
     max-width: 100%;
 
-    border-radius: 2000px;
+    margin-bottom: 5%;
 }
 
 .aboutHeader {
@@ -228,7 +226,7 @@ label {
 }
 
 .aboutWords {
-    margin-right: 14%;
+    margin-left: 12%;
     margin-bottom: 5%;
 }
 
@@ -408,6 +406,12 @@ video {
 }
 
 .connect {
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding-bottom: 3%;
+}
+
+.copyright {
     letter-spacing: 1px;
     font-size: 14px;
     padding-bottom: 3%;
