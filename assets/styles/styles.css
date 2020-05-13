@@ -239,6 +239,7 @@ label {
     letter-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
+    font-size: 12px;
 }
 
 .imageHeader {
@@ -508,7 +509,7 @@ video {
     }
 
     #toggle:checked + .menu {
-        display: inline;
+        display: flex;
     }
 
     /* index.html */
@@ -524,16 +525,32 @@ video {
         margin: 0%;
     }
 
+    .point {
+        margin-bottom: 30%;
+    }
+
     .masthead1 {
         font-size: 18px;
     }
 
+    .item {
+        margin-bottom: 40%;
+    }
+
+    #showcaseWork {
+        margin-top: 0px;
+    }
+
     /* about.html */
-    #aboutMe, .col1, .col2 {   
+    #aboutMe {   
         width: 100%;
         
         display: flex;
         flex-direction: column;
+    }
+
+    .aboutHeader {
+        font-size: 18px;
     }
     
     /* case studies */
@@ -543,6 +560,12 @@ video {
         display: flex;
         flex-direction: column;
     }
+
+    .tag {
+        font-size: 10px;
+    }
+
+    .
 
     .center {
         margin: 0%;
@@ -569,7 +592,7 @@ video {
         margin-bottom: 20%;
     }
 
-    .sectionText, .sectionText2, .titleText, .introSubText {
+    .titleText, .sectionText, .sectionText2, .titleText, .introSubText {
         font-size: 18px;
     }
 
@@ -590,14 +613,13 @@ video {
     }
 
     .connect {
-        font-size: 18px;
+        font-size: 14px;
         padding-bottom: 5%;
     }
 
     #media .icon img {
         padding-left: 0%;
-        padding-right: 50%;
+        padding-right: 30px;
     }
-
 
   }
