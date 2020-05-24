@@ -332,6 +332,14 @@ video {
     margin-bottom: 3%;
 }
 
+.sectionTextAll {
+    font-size: 30px;
+    line-height: 1.5;
+
+    margin-top: 30%;
+    margin-bottom: 3%;
+}
+
 .sectionSubText {
     width: 60%;
 }
@@ -393,6 +401,11 @@ video {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.sectionText img {
+    width: 100%;
+    max-width: 100%;
 }
 
 /********** FOOTER **********/
