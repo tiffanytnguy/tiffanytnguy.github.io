@@ -419,7 +419,7 @@ video {
     justify-content: space-between;
 }
 
-.connect {
+.copyright {
     letter-spacing: 1px;
     font-size: 14px;
     padding-bottom: 3%;
@@ -437,18 +437,28 @@ video {
     justify-content: right;
 }
 
-.icon img {
-    height: 20px;
+.icon {
     padding-left: 30px;
-
-    opacity: 20%;
+    letter-spacing: 1px;
+    font-size: 14px;
 }
 
-.icon img:hover {
-    animation: fadeIn 0.5s ease-in 0s forwards;
+.icon a:hover {
+    color: #4279FB;
+    animation: blackBlue 0.5s ease-in 0s forwards;
 }
 
 /********** ANIMATIONS **********/
+
+/* Black to blue */
+@keyframes blackBlue {
+    from {
+        color: #333;
+    }
+    to {
+        color: #4279FB
+    }
+}
 
 /* It go bouncy bounce */
 @keyframes upDown {
