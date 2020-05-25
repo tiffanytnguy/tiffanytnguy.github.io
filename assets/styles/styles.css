@@ -408,6 +408,11 @@ video {
     max-width: 100%;
 }
 
+.threeCol {
+    display: flex;
+    flex-direction: row;
+}
+
 /********** FOOTER **********/
 
 #footer {
