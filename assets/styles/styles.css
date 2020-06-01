@@ -33,17 +33,13 @@ b {
     color: #4279FB;
 }
 
-b:hover {
-    animation: fadeOut 0.5s ease-in 0s forwards;
-}
-
 a {
     text-decoration: none;
     color: black;
 }
 
-.aboutDesc a:hover {
-    animation: fadeOut 0.5s ease-in 0s forwards;
+a:hover {
+    font-style: italic;
 }
 
 p {
