@@ -33,13 +33,14 @@ b {
     color: #4279FB;
 }
 
+b:hover {
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+}
+
 a {
     text-decoration: none;
     color: black;
-}
-
-a:hover {
-    font-style: italic;
 }
 
 p {
@@ -147,6 +148,10 @@ label {
 
 .point {
     font-size: 40px;
+}
+
+.point:hover {
+    font-style: none;
 }
 
 .point:hover {
