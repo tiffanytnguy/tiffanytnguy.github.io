@@ -1,7 +1,7 @@
 html, body {
     margin-top: 2%;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 6%;
+    margin-right: 6%;
 
     animation: fadeInLanding 1s ease-in 0s;
     background-color: #f9f9f9;
@@ -60,7 +60,7 @@ p {
 /********** NAVBAR **********/
 
 .home {
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-size: 14px;
 }
 
@@ -77,27 +77,26 @@ p {
 }
 
 .navTitle {
-    font-size: 13px;
+    font-size: 14px;
     text-decoration: none;
     letter-spacing: 2px;
-
-    opacity: 40%;
 }
 
 .navTitleLanding {
-    font-size: 13px;
+    font-size: 14px;
     text-decoration: none;
     letter-spacing: 2px;
-    opacity: 100%;
     color: #4279FB;
 }
 
 .navTitle:hover {
+    font-size: 14px;
     color: #4279FB;
-    animation: fadeIn 0.5s ease-in 0s forwards;
+    animation: blackBlue 0.3s ease-in 0s forwards;
 }
 
 .navTitleLand {
+    font-size: 14px;
     color: #4279FB;
 }
 
@@ -126,24 +125,21 @@ label {
 /********** INDEX **********/
 #masthead {
     align-items: center;
-    margin: 14%;
+    margin-top: 14%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 14%;
 }
 
 .masthead1 {
     font-size: 30px;
     text-align: center;
     letter-spacing: 1px;
-    margin-bottom: 8%;
+    margin-bottom: 10%;
 }
 
 .masthead2 {
     text-align: center;
-}
-
-.selectedWork {
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 12px;
 }
 
 .point {
@@ -167,7 +163,7 @@ label {
 }
 
 .blank {
-    width: 60%;
+    width: 80%;
 }
 
 #showcaseWork {
@@ -438,7 +434,7 @@ video {
 
 .icon a:hover {
     color: #4279FB;
-    animation: blackBlue 0.5s ease-in 0s forwards;
+    animation: blackBlue 0.3s ease-in 0s forwards;
 }
 
 /********** ANIMATIONS **********/
