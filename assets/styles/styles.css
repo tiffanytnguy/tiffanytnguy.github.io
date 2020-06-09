@@ -397,6 +397,12 @@ video {
     flex-direction: row;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 6%;
+}
+
 /********** FOOTER **********/
 
 #footer {
@@ -610,6 +616,15 @@ video {
 
     .sectionText {
         margin-bottom: 20%;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row img {
+        padding: 10%;
     }
 
     /* footer */
