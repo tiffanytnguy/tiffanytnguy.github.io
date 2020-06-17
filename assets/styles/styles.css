@@ -60,7 +60,7 @@ p {
 /********** NAVBAR **********/
 
 .home {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 14px;
 }
 
@@ -77,15 +77,15 @@ p {
 }
 
 .navTitle {
+    padding-left: 30px;
+    letter-spacing: 1px;
     font-size: 14px;
-    text-decoration: none;
-    letter-spacing: 2px;
 }
 
 .navTitleLanding {
+    padding-left: 30px;
+    letter-spacing: 1px;
     font-size: 14px;
-    text-decoration: none;
-    letter-spacing: 2px;
     color: #4279FB;
 }
 
