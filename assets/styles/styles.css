@@ -100,8 +100,8 @@ p {
     color: #4279FB;
 }
 
-.sideBlank {
-    width: 60px;
+.sideBlanknav {
+    width: 50px;
 }
 
 .nav {
@@ -286,10 +286,6 @@ label {
 
 /***** Case study content *****/
 
-video {
-    border: 10px solid white;
-}
-
 .caption {
     margin-top: 1%;
 }
@@ -320,7 +316,14 @@ video {
     font-size: 30px;
     line-height: 1.5;
 
-    margin-top: 30%;
+    margin-top: 20%;
+    margin-bottom: 6%;
+}
+
+.sectionTextAllFull {
+    font-size: 30px;
+    line-height: 1.5;
+
     margin-bottom: 3%;
 }
 
@@ -401,6 +404,10 @@ video {
     display: flex;
     flex-direction: row;
     padding-bottom: 6%;
+}
+
+.sideBlank {
+    width: 100px;
 }
 
 /********** FOOTER **********/
