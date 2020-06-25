@@ -12,6 +12,7 @@
 
         <!--Font-->
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,531;0,600;0,700;0,800;1,300;1,400;1,500;1,531;1,600;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet">
 
         <!--Link to stylesheets-->
         <link rel="stylesheet" href="assets/styles/styles.css" type="text/css">
@@ -23,11 +24,14 @@
             <label for="toggle">&#9776;</label>
             <input type="checkbox" id="toggle"/>
             <div class="menu">
-                <div class="home"><a href="index.html">Tif</a></div>
+                <div class="home"><a href="index.html">T</a></div>
                 <div class="side">
-                    <a href="index.html" class="navTitleLanding">Design</a>
-                    <a href="graphic.html" class="navTitle">Graphic</a>
+                    <a href="index.html" class="navTitleLanding">Work</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="graphic.html" class="navTitle">Play</a>
+                    <div class="sideBlanknav"></div>
                     <a href="about.html" class="navTitle">About</a>
+                    <div class="sideBlanknav"></div>
                     <a href="assets/TiffanyNguyen_resume.pdf" target="_blank" class="navTitle">Resume</a>
                  </div>
             </div>
@@ -36,57 +40,70 @@
         <div id="content">
             <!--MASTHEAD-->
             <div id="masthead">
-                <div class="masthead1">Hi, I’m <a href="about.html"><b>Tiffany</b></a> — a Product Designer, hailing from the Bay Area. Interested in inclusivity & accessibility, social connectivity, & the form and complexity of <a href="30daysofegg.html"><b>eggs</b></a>.</div><br>
-                <div class="masthead2">
-                    <div class="point"><a href="#columns">☟</a></div>
-                </div>
+                <div class="masthead1">Hi, I’m <a href="about.html"><b>Tiffany</b></a> — a Product Designer, hailing from Oakland. Interested in inclusivity & accessibility, social connectivity, & the form and complexity of <a href="30daysofegg.html"><b>eggs</b></a>.</div><br>
+                <div class="masthead2"><div class="point"><a href="#showcase"><img src="assets/img/arrow.png"></a></div></div>
             </div>
 
             <!--WORK-->
-            <div id="columns">
-                <div id="showcaseWork">
-                    <div class="item">
-                        <a href="grocery.html">
-                            <img src="assets/img/groceryWork.png">
-                            <div class="itemText">
-                                <h1>Grocery Grab —</h1>
-                                Case Study / Product Design / 2020<br>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="item">
-                        <a href="messenger.html">
-                            <img src="assets/img/messengerWork.png">
-                            <div class="itemText">
-                                <h1>Pin Items in Messenger —</h1>
-                                Case Study / Product Design / 2020
-                            </div>
-                        </a>
+            <div id="showcase">
+                <hr>
+                <div id="work">
+                    <div class="divide">
+                        <div class="number">01 — WhooshMail</div>
+                        <div class="sideBlank"></div>
+                        <div class="detail">
+                            <div class="image-box"><div class="imageHeader"><a href="actransit.html"><img src="assets/img/actransitWork.png"></a></div></div>
+                            <a href="actransit.html"><h2>Email Campaign System</h2></a>
+                            Ensure seamless email campaign development across teams
+                        </div>
                     </div>
                 </div>
-
-                <div class="blank"></div>
-                
-                <div id="showcaseWork">
-                    <div class="item">
-                        <a href="shirtsbymike.html">
-                            <img src="assets/img/shirtsByMikeWork.png">
-                            <div class="itemText">
-                                <h1>ShirtsByMike Redesign —</h1>
-                                Case Study / Web Design / 2020
-                            </div>
-                        </a>
+    
+                <div id="work">
+                    <div class="divide">
+                        <div class="number">02 — Grocery Grab</div>
+                        <div class="sideBlank"></div>
+                        <div class="detail">
+                            <div class="image-box"><div class="imageHeader"><a href="grocery.html"><img src="assets/img/grocery.png"></a></div></div>
+                            <a href="grocery.html"><h2>Mobile App</h2></a>
+                            A tool to ensure people’s grocery shopping experience
+                        </div>
                     </div>
-
-                    <div class="item">
-                        <a href="actransit.html">
-                            <img src="assets/img/actransitWork.png">
-                            <div class="itemText">
-                                <h1>Adding accessibility to bus travels —</h1>
-                                Case Study / Product Design / 2019
-                            </div>
-                        </a>
+                </div>
+                
+                <div id="work">
+                    <div class="divide">
+                        <div class="number">03 — ShirtsbyMike</div>
+                        <div class="sideBlank"></div>
+                        <div class="detail">
+                            <div class="image-box"><div class="imageHeader"><a href="shirtsbymike.html"><img src="assets/img/shirtsbymikeWork.gif"></a></div></div>
+                            <a href="shirtsbymike.html"><h2>Site Redesign</h2></a>
+                            Rebranding the site to attract Treehouse students
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="work">
+                    <div class="divide">
+                        <div class="number">04 — Messenger</div>
+                        <div class="sideBlank"></div>
+                        <div class="detail">
+                            <div class="image-box"><div class="imageHeader"><a href="messenger.html"><img src="assets/img/messengerWork.png"></a></div></div>
+                            <a href="messenger.html"><h2>Pin Chats and Messages</h2></a>
+                            Keep track of messages and chats through a pin system
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="work">
+                    <div class="divide">
+                        <div class="number">05 — AC Transit</div>
+                        <div class="sideBlank"></div>
+                        <div class="detail">
+                            <div class="image-box"><div class="imageHeader"><a href="actransit.html"><img src="assets/img/actransitWork.png"></a></div></div>
+                            <a href="actransit.html"><h2>Rebranding Mobile App and Stop</h2></a>
+                            Adding greater accessibility to bus travels
+                        </div>
                     </div>
                 </div>
             </div>
@@ -94,10 +111,12 @@
         
         <!--FOOTER-->
         <div id="footer">
-            <div class="copyright">Made by the ✋🏼🤚🏼s of Tiffany Nguyen.</div>
+            <div class="copyright">© Made by the ✋🏼🤚🏼s of Tiffany Nguyen.</div>
             <div id="media">
                 <div class="icon"><a href="mailto:tiffanytnguy@berkeley.edu" target="_blank">Email</a></div>
+                <div class="sideBlanknav"></div>
                 <div class="icon"><a href="https://www.linkedin.com/in/tiffanytnguy/" target="_blank">LinkedIn</a></div>
+                <div class="sideBlanknav"></div>
                 <div class="icon"><a href="https://www.instagram.com/tifdraws/" target="_blank">Instagram</a></div>
             </div>
         </div>
