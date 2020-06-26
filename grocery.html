@@ -10,6 +10,7 @@
 
         <!--Font-->
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,531;0,600;0,700;0,800;1,300;1,400;1,500;1,531;1,600;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet">
 
         <!--Link to stylesheets-->
         <link rel="stylesheet" href="assets/styles/styles.css" type="text/css">
@@ -21,11 +22,14 @@
             <label for="toggle">&#9776;</label>
             <input type="checkbox" id="toggle"/>
             <div class="menu">
-                <div class="home"><a href="index.html">Tif</a></div>
+                <div class="home"><a href="index.html">T</a></div>
                 <div class="side">
-                    <a href="index.html" class="navTitle">Design</a>
-                    <a href="graphic.html" class="navTitle">Graphic</a>
+                    <a href="index.html" class="navTitle">Work</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="graphic.html" class="navTitle">Play</a>
+                    <div class="sideBlanknav"></div>
                     <a href="about.html" class="navTitle">About</a>
+                    <div class="sideBlanknav"></div>
                     <a href="assets/TiffanyNguyen_resume.pdf" target="_blank" class="navTitle">Resume</a>
                  </div>
             </div>
@@ -110,10 +114,10 @@
             <div id="pageSection">
                 <div class="pageSectionTitle">Research</div>
                 <div class="divide">
-                    <div class="sectionText">I had my pain points when grocery shopping during the peak of COVID-19 and wanted to explore similar or other pain points from my peers.</div>
+                    <div class="sectionText">During the peak of COVID-19, I observed and heard common pain points of my peers and wanted to explore deeper in what deterred their grocery shopping experience.</div>
                     <div class="sideBlank"></div>
                     <div class="sectionSubTextHalf">
-                        Prior to reaching out for interviewees and conducting user interviews, I aimed to create five key areas of inquiry:
+                        Prior to reaching out for interviewees and conducting user interviews, I focused on 5 key areas of inquiry:
                         <br><br>
                         01 — Compare and contrast the grocery shopping process from before versus after the stay-at-home.
                         <br><br>
@@ -129,7 +133,11 @@
             </div>
 
             <div id="pageSection">
-                <div class="sectionText">Gathering my findings, I created an affinity map to note arising themes and similar experiences that all my interviewees faced when grocery shopping.</div>
+                <div class="divide">
+                    <div class="sectionText">Gathering my findings, I created an affinity map to note arising themes and similar experiences.</div>
+                    <div class="sideBlank"></div>
+                    <div class="sectionSubTextHalf">This helped me gather and organize the arising themes and similar experiences based on their relationships with the key areas delved on, rather than only taking note of key quotes and going on from there.</div>
+                </div>
             </div>
 
             <div id="pageSection">
@@ -140,7 +148,11 @@
                 <div class="divide">
                     <div class="sectionText">A common problem that people faced was the lack of transparency.</div>
                     <div class="sideBlank"></div>
-                    <div class="sectionSubTextHalf">From the user interviews I conducted and conversations with peers, everyone noted the limited or out-of-stock items they ran into when shopping. When it came to some specific items - such as the brand name, they found those shelf locations to be empty so they had to either settle for another ‘lesser’ quality or brand, or aim to retrieve their item at another location, which in most cases, ended up not having the item available.</div>
+                    <div class="sectionSubTextHalf">
+                        From the user interviews I conducted and conversations with peers, everyone noted the limited or out-of-stock items they ran into when shopping. 
+                        <br><br>
+                        When it came to some specific items - such as the brand name, they found those shelf locations to be empty so they had to either settle for another ‘lesser’ quality or brand, or aim to retrieve their item at another location, which in most cases, ended up not having the item available.
+                    </div>
                 </div>
             </div>
 
@@ -169,7 +181,14 @@
                 <div class="divide">
                     <div class="sectionText">Note the store's current inventory to ensure customer's search for items; be transparent about items restocked.</div>
                     <div class="sideBlank"></div>
-                    <div class="sectionSubTextHalf">I primarily wanted to note the store’s inventory. For people to ensure that they could obtain the item, there would be a clear indication of the item in stock, through visible inventory. To take note of items that were in-stock, low-in-stock, or out-of-stock,  there would be visual cues such as color and icon. In the event that an item was out of stock, people were able to  waitlist items to get notified of a recurring shipment.</div>
+                    <div class="sectionSubTextHalf">
+                        I primarily wanted to note the store’s inventory.
+                        <br><br>
+                        01 — For people to ensure that they could obtain the item, there would be a clear indication of the item in stock, through visible inventory. 
+                        <br><br>
+                        02 — To take note of items that were in-stock, low-in-stock, or out-of-stock,  there would be visual cues such as color and icon. 
+                        <br><br>
+                        03 — In the event that an item was out of stock, people were able to  waitlist items to get notified of a recurring shipment.</div>
                 </div>
             </div>
 
@@ -207,12 +226,7 @@
             </div>
 
             <div id="pageSection">
-                <video width="100%" autoplay loop muted>
-                    <source src="assets/img/groceryPage/wireframe.mp4" type="video/mp4">
-    
-                    Sorry, your browser doesn't support embedded videos.
-                </video>
-
+                <div class="imageHeader"><img src="assets/img/groceryPage/wireframes.png"></div>
                 <div class="caption">Wireframe done on Figma.</div>
             </div>
 
@@ -221,13 +235,25 @@
                 <div class="divide">
                     <div class="sectionText">What went well?</div> 
                     <div class="sideBlank"></div>
-                    <div class="sectionSubTextHalf">The overall score for my app’s usability and navigation was an 8 out of 10. Potential users found the prototype to be easy and intuitive to use as it had similar user flows with their current app interactions, and found that the solution solved the core problem - stock transparency. Many positively commented on the animations implemented; adding that it gave a real tangibility, despite it being interacted with via screen.</div>
+                    <div class="sectionSubTextHalf">
+                        I used a Likert scale to statically allow users to express how much they found the app to be intuitive to use. The average score was 8 out of 10.
+                        <br><br>
+                        01 — Potential users found the prototype to be easy and intuitive to use as it had similar user flows with their current app interactions, and found that the solution solved the core problem - stock transparency. 
+                        <br><br>
+                        02 — Many positively commented on the animations implemented; adding that it gave a real tangibility, despite it being interacted with via screen.
+                    </div>
                 </div>
-                <br><br>
+            </div>
+
+            <div id="pageSection">
                 <div class="divide">
                     <div class="sectionText">What can be improved?</div> 
                     <div class="sideBlank"></div>
-                    <div class="sectionSubTextHalf">Needed to be more visible clarification on certain points such as the ability to waitlist items and whether the favorites list depicted on the main page was referencing the store’s general favorites or the user’s personal favorites. Before finishing my wireframes, I ran into other edge cases and screens that should be added but did not yet finalize the screens and elements because I wanted to reconfirm by solutions through user testing.</div>
+                    <div class="sectionSubTextHalf">
+                        01 — Needed to be more visible clarification on certain points such as the ability to waitlist items and whether the favorites list depicted on the main page was referencing the store’s general favorites or the user’s personal favorites. 
+                        <br><br>
+                        02 — Before finishing my wireframes, I ran into other edge cases and screens that should be added - i.e., check out page, notifications - but did not yet finalize the screens and elements because I wanted to reconfirm by solutions through user testing.
+                    </div>
                 </div>
             </div>
 
@@ -254,11 +280,13 @@
                     <div class="sectionText">After taking in some feedback from the user testings, I was able to create the hi-fi prototype.</div> 
                     <div class="sideBlank"></div>
                     <div class="sectionSubTextHalf">
-                        — Added additional screens - i.e., checkout, waitlist, notifications, etc. - to allow envelope the app in its entirity.
+                        Some changes added...
                         <br><br>
-                        — Enlarged fonts and buttons to make the interactions more physically accessible for fingers.
+                        01 — Added additional screens - i.e., checkout, waitlist, notifications, etc. - to allow envelope the app in its entirity.
                         <br><br>
-                        — Clarified the favorite's list to reference the general customer population.
+                        02 — Enlarged fonts and buttons to make the interactions more physically accessible for fingers.
+                        <br><br>
+                        03 — Clarified the favorite's list to reference the general customer population.
                     </div>
                 </div>
             </div>
@@ -282,13 +310,13 @@
             <div id="pageSection" class="center">
                 <div class="pageSectionTitle">Next steps</div>
                 <div class="sectionSubTextNon">
-                    <p>Extending screens to beyond the check-out screen —</p>
+                    <p>Extend screens to beyond the check-out screen to note alternative ways to retrieve items.</p>
                     Exploring and researching potential ways to check-out and retrieve grocery items - drive and pick up, pick up, delivery, etc.
                     <br><br>
-                    <p>Backend screens enabling stores to input their own data —</p>
+                    <p>Backend screens to enable stores to input their own data. </p>
                     Stores could update stocks, messages, etc. all through one app - mobile or desktop.
                     <br><br>
-                    <p>Personalization —</p>
+                    <p>Personalization and social connections.</p>
                     Allowing customers to personalize their information through account settings. A possible feature to include would be a recipe sharing forum. This would help add socialization within a time where social-distancing has become a norm.
                 </div>
             </div>
@@ -296,10 +324,12 @@
 
         <!--FOOTER-->
         <div id="footer">
-            <div class="copyright">Made by the ✋🏼🤚🏼s of Tiffany Nguyen.</div>
+            <div class="copyright">© Made by the ✋🏼🤚🏼s of Tiffany Nguyen.</div>
             <div id="media">
                 <div class="icon"><a href="mailto:tiffanytnguy@berkeley.edu" target="_blank">Email</a></div>
+                <div class="sideBlanknav"></div>
                 <div class="icon"><a href="https://www.linkedin.com/in/tiffanytnguy/" target="_blank">LinkedIn</a></div>
+                <div class="sideBlanknav"></div>
                 <div class="icon"><a href="https://www.instagram.com/tifdraws/" target="_blank">Instagram</a></div>
             </div>
         </div>
