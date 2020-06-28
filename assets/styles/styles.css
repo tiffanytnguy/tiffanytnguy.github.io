@@ -599,6 +599,27 @@ h1 {
       flex-direction: column;
     }
 
+    .number {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    #work {
+        margin-bottom: 40%;
+    }
+
+    h2 {
+        line-height: 1;
+    }
+
+    .sideBlank {
+        display: none;
+    }
+
+    .description, .video {
+        width: 100%;
+    }
+
     #masthead {
         padding: 0%;
         margin: 0%;
@@ -606,6 +627,14 @@ h1 {
 
     .point {
         margin-bottom: 30%;
+    }
+
+    .center {
+        margin: 0%;
+    }
+
+    .point img {
+        width: 50%;
     }
 
     .masthead1 {
