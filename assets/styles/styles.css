@@ -480,6 +480,15 @@ h1 {
     width: 140px;
 }
 
+.description {
+    width: 30%;
+    margin-top: 10%;
+}
+
+.video {
+    width: 70%;
+}
+
 /********** FOOTER **********/
 
 #footer {
