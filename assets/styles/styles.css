@@ -109,14 +109,6 @@ label {
     display: none;
 }
 
-/********** LINES **********/
-
-hr {
-    width: 100%;
-    border: 1px solid;
-    margin-bottom: 10%;
-}
-
 /********** INDEX **********/
 #masthead {
     margin-top: 14%;
