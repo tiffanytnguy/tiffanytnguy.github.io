@@ -13,7 +13,7 @@ html, body {
 
 html {
     font-family: 'Inter', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 16px;
     line-height: 1.8;
     color: #333;
@@ -22,7 +22,7 @@ html {
 }
 
 b {
-    font-weight: 400;
+    font-weight: 300;
     font-style: italic;
 }
 
@@ -36,11 +36,11 @@ a {
 }
 
 p {
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .bold {
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .caption {
@@ -233,7 +233,7 @@ h2 {
 }
 
 h1 {
-    font-weight: 300;
+    font-weight: 200;
     font-size: 24px;
     letter-spacing: 1px;
     line-height: 0;
@@ -332,7 +332,7 @@ h1 {
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .descCat {
@@ -354,8 +354,7 @@ h1 {
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-weight: 300;
-
+    font-weight: 200;
 
     margin-bottom: 2%;
 }
