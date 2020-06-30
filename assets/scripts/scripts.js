@@ -6,6 +6,19 @@ $(".point").click(function() {
         'slow');
 });
 
+/* Change background when scrolling */
+$(function() {
+   $(window).scroll(function () {
+      if ($(this).scrollTop() > 50) {
+         $(‘body’).addClass(‘changeColor’)
+      }
+      if ($(this).scrollTop() < 50) {
+         $(‘body’).removeClass(‘changeColor’)
+      }
+   });
+});
+
+
 /* tbd below */
 
 /* ANIMATE: Make hover items pop up when hovering over project square */

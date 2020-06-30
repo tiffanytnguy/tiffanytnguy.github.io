@@ -2,11 +2,17 @@ html, body {
     margin-top: 2%;
     margin-left: 4%;
     margin-right: 4%;
-
-    animation: fadeInLanding 1s ease-in 0s;
     background-color: #f9f9f9;
 
     scroll-behavior: smooth;
+}
+
+.changeClass {
+    background: #f9f9f9;
+}
+
+#content {
+    animation: fadeInLanding 1.2s ease-in-out 0s;
 }
 
 /********** FONTS **********/
@@ -526,6 +532,7 @@ h1 {
     from {
         transform: translateY(0px);
     }
+
     to {
         transform: translateY(20px);
     }
@@ -535,9 +542,12 @@ h1 {
 @keyframes fadeInLanding {
     from {
         opacity: 0%;
+        transform: translateY(30px);
     }
+
     to {
-        opacity: 100%
+        opacity: 100%;
+        transform: translateY(0px);
     }
 }
 
