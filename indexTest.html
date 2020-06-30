@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Tiffany Nguyen</title>
+        <link rel="shortcut icon" type="image/png" href="assets/img/icon.png"/>
+
+        <!--Responsive-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Font-->
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,531;0,600;0,700;0,800;1,300;1,400;1,500;1,531;1,600;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet">
+
+        <!--Link to stylesheets-->
+        <link rel="stylesheet" href="assets/styles/styles.css" type="text/css">
+        <link rel="stylesheet" href="assets/styles/fullpage.css" type="text/css">
+    </head>
+
+    <body>
+        <!--NAV-->
+        <div class="nav">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"/>
+            <div class="menu">
+                <div class="home"><a href="index.html">T</a></div>
+                <div class="side">
+                    <a href="index.html" class="navTitleLanding">Work</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="graphic.html" class="navTitle">Play</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="about.html" class="navTitle">About</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="assets/TiffanyNguyen_resume.pdf" target="_blank" class="navTitle">Resume</a>
+                 </div>
+            </div>
+        </div>
+
+        <!--WORK-->
+        <div id="fullpage">
+            <div class="section " id="section0">
+                <div class="intro">
+                    <!--MASTHEAD-->
+                    <div id="masthead">
+                        <div class="masthead1">Hi, I’m <a href="about.html"><b>Tiffany</b></a> — a Product Designer, hailing from Oakland. Interested in inclusivity & accessibility, social connectivity, & the form and complexity of <a href="30daysofegg.html"><b>eggs</b></a>.</div><br>
+                        <div class="masthead2"><div class="point"><a href="#showcase"><img src="assets/img/arrow.png"></a></div></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section " id="section1">
+                <div class="intro">
+                    <div id="work">
+                        <div class="divide">
+                            <div class="number">01 — Grocery Grab</div>
+                            <div class="sideBlank"></div>
+                            <div class="detail">
+                                <div class="image-box"><div class="imageHeader"><a href="grocery.html"><img src="assets/img/grocery.png"></a></div></div>
+                                <a href="grocery.html"><h2>Mobile App</h2></a>
+                                A tool to ensure people’s grocery shopping experience
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="section" id="section2">
+                <div class="intro">
+                    <div id="work">
+                        <div class="divide">
+                            <div class="number">02 — WhooshMail</div>
+                            <div class="sideBlank"></div>
+                            <div class="detail">
+                                <div class="image-box"><div class="imageHeader"><a href="whoosh.html"><img src="assets/img/whooshWork.png"></a></div></div>
+                                <a href="whoosh.html"><h2>Email Campaign System</h2></a>
+                                Ensure seamless email campaign development across teams
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section" id="section3">
+                <div class="intro">
+                    <div id="work">
+                        <div class="divide">
+                            <div class="number">04 — Messenger</div>
+                            <div class="sideBlank"></div>
+                            <div class="detail">
+                                <div class="image-box"><div class="imageHeader"><a href="messenger.html"><img src="assets/img/messengerWork.png"></a></div></div>
+                                <a href="messenger.html"><h2>Pin Chats and Messages</h2></a>
+                                Keep track of messages and chats through a pin system
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--FOOTER-->
+        <div id="footer">
+            <div class="copyright">© Made by the ✋🏼🤚🏼s of Tiffany Nguyen.</div>
+            <div id="media">
+                <div class="icon"><a href="mailto:tiffanytnguy@berkeley.edu" target="_blank">Email</a></div>
+                <div class="sideBlanknav"></div>
+                <div class="icon"><a href="https://www.linkedin.com/in/tiffanytnguy/" target="_blank">LinkedIn</a></div>
+                <div class="sideBlanknav"></div>
+                <div class="icon"><a href="https://www.instagram.com/tifdraws/" target="_blank">Instagram</a></div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="assets/scripts/scripts.js"></script>
+
+        <script type="text/javascript" src="../dist/fullpage.js"></script>
+
+        <script type="text/javascript">
+            var myFullpage = new fullpage('#fullpage', {
+                anchors: ['firstPage', 'secondPage', '3rdPage'],
+                sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+                navigation: true,
+                navigationPosition: 'right',
+                navigationTooltips: ['First page', 'Second page', 'Third and last page']
+            });
+        </script>
+
+    </body>
+</html>
