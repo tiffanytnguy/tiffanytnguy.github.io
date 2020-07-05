@@ -127,8 +127,7 @@ label {
 
 /********** INDEX **********/
 #masthead {
-    margin-top: 14%;
-    margin-right: 30%;
+    margin-top: 12%;
     margin-bottom: 14%;
 }
 
@@ -137,7 +136,9 @@ label {
     font-weight: 200;
     font-size: 30px;
     letter-spacing: 1px;
-    margin-bottom: 10%;
+
+    margin-bottom: 6%;
+    margin-right: 30%;
 }
 
 #mastheadPlay {
@@ -153,9 +154,7 @@ label {
 }
 
 .masthead2 {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
+    float: right;
 }
 
 .words {
@@ -170,7 +169,20 @@ label {
 }
 
 .point img {
-    width: 50px;
+    width: 60px;
+}
+
+red {
+    color: #FE614F;
+}
+
+blue {
+    font-weight: 300;
+    color: #2870D8;
+}
+
+yellow {
+    color: #FFB028;
 }
 
 /***** This is the grid (for index)******/
