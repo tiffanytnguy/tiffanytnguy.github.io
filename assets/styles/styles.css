@@ -15,6 +15,16 @@ html, body {
     animation: fadeInLanding 1.2s ease-in-out 0s;
 }
 
+/*wish*/
+.wishTY {
+    text-align: center;
+    align-items: center;
+}
+
+.wishTY img{
+    width: 20%;
+}
+
 /********** FONTS **********/
 
 html {
