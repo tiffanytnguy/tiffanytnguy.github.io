@@ -11,7 +11,7 @@ html, body {
     background: #f9f9f9;
 }
 
-#content {
+#content, .masthead1 {
     animation: fadeInLanding 1.2s ease-in-out 0s;
 }
 
@@ -108,7 +108,6 @@ p {
 }
 
 .nav {
-    margin-top: 2%;
     margin-bottom: 10%;
 }
 
@@ -127,18 +126,17 @@ label {
 
 /********** INDEX **********/
 #masthead {
-    margin-top: 12%;
-    margin-bottom: 14%;
+    margin-top: 10%;
+    margin-bottom: 16%;
 }
 
 .masthead1 {
     font-family: 'Fahkwang', sans-serif;
     font-weight: 200;
-    font-size: 30px;
-    letter-spacing: 1px;
+    font-size: 36px;
 
-    margin-bottom: 6%;
-    margin-right: 30%;
+    margin-bottom: 2%;
+    margin-right: 24%;
 }
 
 #mastheadPlay {
@@ -154,7 +152,14 @@ label {
 }
 
 .masthead2 {
-    float: right;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.scrollDown {
+    padding-top: 4%;
 }
 
 .words {
@@ -168,8 +173,12 @@ label {
     animation: upDown 1s ease-in-out 0s infinite alternate;
 }
 
+.point:hover {
+    animation-play-state: paused;
+}
+
 .point img {
-    width: 60px;
+    width: 80px;
 }
 
 red {
@@ -188,7 +197,7 @@ yellow {
 /***** This is the grid (for index)******/
 
 #showcase {
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 #work {
