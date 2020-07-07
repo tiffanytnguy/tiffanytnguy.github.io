@@ -2,13 +2,9 @@ html, body {
     margin-top: 2%;
     margin-left: 4%;
     margin-right: 4%;
-    background-color: #f9f9f9;
+    background-color: #F9F8F7;
 
     scroll-behavior: smooth;
-}
-
-.changeClass {
-    background: #f9f9f9;
 }
 
 #content, .masthead1 {
@@ -32,23 +28,23 @@ html {
     font-weight: 200;
     font-size: 16px;
     line-height: 1.8;
-    color: #333;
+    color: #020202;
 
     scroll-behavior: smooth;
 }
 
 b {
     font-weight: 300;
-    font-style: italic;
 }
 
 b:hover {
+    font-style: italic;
     text-decoration: line-through;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #020202;
 }
 
 p {
@@ -93,14 +89,14 @@ p {
     letter-spacing: 1px;
     font-size: 14px;
 
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #020202;
 }
 
 .navTitle:hover {
     font-size: 14px;
     letter-spacing: 1px;
 
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #020202;
 }
 
 .sideBlanknav {
@@ -137,6 +133,10 @@ label {
 
     margin-bottom: 4%;
     margin-right: 26%;
+}
+
+.masthead1 img {
+    width: 5%;
 }
 
 #mastheadPlay {
@@ -179,19 +179,6 @@ label {
 
 .point img {
     width: 80px;
-}
-
-red {
-    color: #FE614F;
-}
-
-blue {
-    font-weight: 300;
-    color: #2870D8;
-}
-
-yellow {
-    color: #FFB028;
 }
 
 /***** This is the grid (for index)******/
@@ -527,7 +514,7 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
 
-    border-top: 1px solid #333;
+    border-top: 1px solid #020202;
 }
 
 #media, .copyright {
@@ -553,7 +540,7 @@ h1 {
     font-size: 14px;
     letter-spacing: 1px;
 
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #020202;
 }
 
 .sideBlanknavbottom {

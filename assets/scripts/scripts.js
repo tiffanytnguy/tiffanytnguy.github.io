@@ -10,10 +10,10 @@ $(".point").click(function() {
 $(function() {
    $(window).scroll(function () {
       if ($(this).scrollTop() > 50) {
-         $(‘body’).addClass(‘changeColor’)
+         $('html').addClass(‘changeColor’)
       }
       if ($(this).scrollTop() < 50) {
-         $(‘body’).removeClass(‘changeColor’)
+         $('html').removeClass(‘changeColor’)
       }
    });
 });
