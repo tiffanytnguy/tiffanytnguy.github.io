@@ -1,0 +1,616 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    transition: all 200ms;
+
+    scroll-behavior: smooth;
+
+    transition: all 200ms;
+    will-change: background;
+}
+
+.clear {
+    clear: both;
+}
+
+#footer, #footer2, #content, .nav, #masthead {
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.nav {
+    padding-top: 4%;
+}
+
+#content, .masthead1 {
+    animation: fadeInLanding 2s ease-in-out 0s;
+}
+
+/*wish*/
+.wishTY {
+    text-align: center;
+    align-items: center;
+}
+
+.wishTY img{
+    width: 20%;
+}
+
+/********** FONTS **********/
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #020202;
+
+    scroll-behavior: smooth;
+}
+
+b {
+    font-weight: 300;
+}
+
+b:hover {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    color: #2265EE;
+}
+
+a {
+    text-decoration: none;
+    color: #020202;
+}
+
+i {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+i:hover {
+    color: #2265EE;
+}
+
+p {
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 300;
+}
+
+.caption {
+    text-align: center;
+
+    opacity: 40%;
+}
+
+/********** NAVBAR **********/
+
+.nav {
+    margin-bottom: 6%;
+}
+
+.home {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navTitle {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.navTitleLanding {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    border-bottom: 1px solid #000;
+}
+
+.navTitle:hover {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    border-bottom: 1px solid #000;
+}
+
+.sideBlanknav {
+    width: 20px;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+/********** INDEX **********/
+#masthead {
+    padding-top: 4%;
+    margin-bottom: 6%;
+}
+
+.masthead1 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 1.2;
+
+    margin-right: 20%;
+}
+
+.masthead1 img {
+    width: 6%;
+    animation: spin 6s linear infinite;
+}
+
+#mastheadPlay {
+    margin-top: 10%;
+}
+
+.changeFontColor {
+    color: #fff;
+}
+
+.back {
+    color: #020202;
+}
+
+.scrollDown {
+    padding-top: 4%;
+}
+
+.words {
+    font-size: 14px;
+    padding-left: 2%;
+    padding-top: 4%;
+}
+
+.tilt img{
+    transform: rotate(-4deg);
+}
+
+/***** This is the grid (for index)******/
+
+#column {
+    padding-top: 4%;
+    padding-bottom: 6%;
+
+    background: #020202;
+}
+
+#workIn {
+    margin-top: 4%;
+    margin-bottom: 4%;
+
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#work {
+    border-top: solid 1px #383838;
+}
+
+.imgRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.detail {
+    padding-top: 4%;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.detailTitle {
+    line-height: 1;
+}
+
+h2 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #fff;
+}
+
+h2:hover {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.small {
+    font-size: 14px;
+    color: #fff;
+    width: 100%;
+}
+
+.sideBlankBottom {
+    height: 30px;
+}
+
+/***** Zoom in case images when hovering *****/
+
+.image-box {
+    overflow: hidden;
+    margin: auto;
+}
+
+.image-box img {
+    max-width: 100%;
+    transition: all 2.0s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.image-box:hover img {
+    transform: scale(1.2);
+}
+
+/**/
+
+.imageHeader {
+    display: flex;
+    justify-content: center;
+}
+
+#imageHeader {
+    margin-bottom: 200px;
+}
+
+.imageHeader img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.sideBlank {
+    width: 140px;
+}
+
+/********** FOOTER **********/
+
+#footer {
+    padding-top: 2%;
+    padding-bottom: 4%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #020202;
+    color: #fff;
+}
+
+#footer2 {
+    padding-top: 6%;
+    padding-bottom: 6%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: #020202;
+}
+
+.footerTitle {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+}
+
+.footerTitle2 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+#media, .copyright, .copyright2 {
+    padding-top: 4%;
+}
+
+.copyright {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 3%;
+    color: #fff;
+}
+
+.copyright2 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 3%;
+    text-transform: uppercase;
+}
+
+#media {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    font-size: 14px;
+    color: #fff;
+}
+
+.icon2 {
+    font-size: 14px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.icon2 a:hover {
+    border-bottom: 0.5px solid #020202;
+}
+
+.sideBlanknavbottom {
+    width: 70px;
+}
+
+.whiteFont {
+    color: #fff;
+}
+
+a .whiteFont:hover {
+    font-size: 14px;
+    border-bottom: 0.5px solid #fff;
+}
+
+/********** ANIMATIONS **********/
+
+/* It go bouncy bounce */
+@keyframes upDown {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(20px);
+    }
+} 
+
+/* Fade into page once landed */
+@keyframes fadeInLanding {
+    from {
+        opacity: 0%;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
+
+/* Dizzy spins */
+@keyframes spin {
+	0% {
+		transform: rotateZ(0);
+	}
+	100% {
+		transform: rotateZ(360deg);
+	}
+}
+
+/* Rotate */
+@keyframes rotate {
+	0% {
+		transform: rotateZ(0);
+	}
+	100% {
+		transform: rotateZ(45deg);
+	}
+}
+
+/********** RESPONSIVE **********/
+
+/* Use a media query to add a breakpoint at 800px: */
+
+@media screen and (max-width: 800px) {
+    /* nav */
+    label {
+        display: block;
+        cursor: pointer;
+
+        float: right;
+        margin-bottom: 10%;
+    }
+
+    .menu {
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        margin: 5px;
+
+        font-weight: 300;
+    }
+
+    .navTitleLand:hover {
+        font-weight: 300;
+    }
+
+    .nav {
+        padding-top: 0%;
+    }
+
+    #toggle:checked + .menu {
+        display: flex;
+    }
+
+    /* index.html */
+    
+    .masthead1 {
+        font-size: 30px;
+        margin-right: 0%;
+    }
+
+    #column, #columns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        line-height: 1.6;
+    }
+
+    #showcaseWork {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 0px;
+    }
+
+    .item {
+        margin-bottom: 30%;
+    }
+
+    .masthead3 {
+        margin-bottom: 20%;
+    }
+
+    /* about.html */
+
+    .aboutHeader {
+        font-size: 30px;
+    }
+    
+    /* case studies */
+    .intro, #introDetails, #pageSection, .divide, .center {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tag {
+        font-size: 10px;
+    }
+
+    .sideBlank {
+        display: none;
+    }
+
+    .center {
+        margin: 0%;
+    }
+
+    .item1 {
+        margin-bottom: 20%;
+    }
+
+    .sectionSubTextLong {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionSubTextHalfNon, .sectionText, .sectionSubText, .sectionSubTextLong, .sectionSubTextHalf, .sectionSubTextHalf1, .sectionSubTextHalf2, .sectionSubTextHalfNon, .sectionText2, .detail {
+        width: 100%;
+        margin: 0%;
+        max-width: 100%;
+    }
+
+    .sectionSubTextHalf1, .sectionSubTextHalf2 {
+        margin-bottom: 14%;
+    }
+
+    #imageHeader, .imageHeader, #introDetails {
+        margin-bottom: 6%;
+    }
+
+    .mobile video {
+        width: 100%;
+        margin-bottom: 20%;
+    }
+
+    .titleText {
+        font-size: 30px;
+    }
+
+    .sectionText, .sectionText2, .introSubText {
+        font-size: 18px;
+    }
+
+    .sectionText {
+        margin-bottom: 20%;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row img {
+        padding: 10%;
+    }
+
+    /* footer */
+    #footer {
+        max-width: 100%;
+
+        display: flex;
+        flex-direction: row;
+
+        margin-top: 14%;
+    }
+
+    #footer2 {
+        max-width: 100%;
+
+        display: flex;
+        flex-direction: row;
+
+        margin-top: 14%;
+    }
+
+    #media {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon {
+        margin-bottom: 4%;
+    }
+
+    .icon2 {
+        margin-bottom: 4%;
+    }
+  }
