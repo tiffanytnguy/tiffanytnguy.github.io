@@ -57,7 +57,7 @@ b:hover {
     font-family: 'Playfair Display', serif;
     font-style: italic;
     font-weight: 400;
-    color: #2265EE;
+    color: #4D7DFF;
 }
 
 a {
@@ -72,7 +72,7 @@ i {
 }
 
 i:hover {
-    color: #2265EE;
+    color: #4D7DFF;
 }
 
 p {
@@ -245,7 +245,7 @@ h2 {
 }
 
 h2:hover {
-    color: #2265EE;
+    color: #4D7DFF;
 }
 
 .small {
