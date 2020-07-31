@@ -75,11 +75,7 @@ i:hover {
     color: #4D7DFF;
 }
 
-p {
-    font-weight: 300;
-}
-
-.bold {
+p, .bold{
     font-weight: 300;
 }
 
