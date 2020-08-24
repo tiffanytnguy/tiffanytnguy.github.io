@@ -718,7 +718,7 @@ a .whiteFont:hover {
         font-size: 30px;
     }
 
-    #aboutMe1 img {
+    .imageHeader img {
         max-width: 100%;
     }
     

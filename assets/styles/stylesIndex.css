@@ -481,7 +481,7 @@ a .whiteFont:hover {
         margin-right: 0%;
     }
 
-    #column, #columns {
+    #column {
         display: flex;
         flex-direction: column;
     }
@@ -490,19 +490,9 @@ a .whiteFont:hover {
         line-height: 1.6;
     }
 
-    #showcaseWork {
+    .imgRow {
         display: flex;
         flex-direction: column;
-
-        margin-top: 0px;
-    }
-
-    .item {
-        margin-bottom: 30%;
-    }
-
-    .masthead3 {
-        margin-bottom: 20%;
     }
 
     /* about.html */
