@@ -15,8 +15,8 @@ html, body {
 }
 
 #footer, #footer2, #content, .nav, #masthead {
-    padding-right: 8%;
-    padding-left: 8%;
+    padding-right: 6%;
+    padding-left: 6%;
 }
 
 .nav {
@@ -42,7 +42,7 @@ html, body {
 html {
     font-family: 'Inter', sans-serif;
     font-weight: 200;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.8;
     color: #020202;
 
@@ -98,7 +98,7 @@ p {
 .home {
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .menu {
@@ -116,33 +116,33 @@ p {
 .navTitle {
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .navTitleLanding {
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
-    font-size: 14px;
-    border-bottom: 1px solid #000;
+    font-size: 1rem;
+    border-bottom: 0.0625rem solid #000;
 }
 
 .navTitle:hover {
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
-    font-size: 14px;
-    border-bottom: 1px solid #000;
+    font-size: 1rem;
+    border-bottom: 0.0625rem solid #000;
 }
 
 .sideBlanknav {
-    width: 20px;
+    width: 1.25rem;
 }
 
 label {
-    margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 70px;
+    margin: 0 2.5rem 0 0;
+    font-size: 1.625rem;
+    line-height: 4.375rem;
     display: none;
-    width: 26px;
+    width: 1.625rem;
     float: right;
 }
 
@@ -152,14 +152,14 @@ label {
 
 /********** INDEX **********/
 #masthead {
-    padding-top: 4%;
-    margin-bottom: 6%;
+    padding-top: 2%;
+    padding-bottom: 4%;
 }
 
 .masthead1 {
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
-    font-size: 46px;
+    font-size: 3.75rem;
     line-height: 1.2;
 
     margin-right: 20%;
@@ -168,10 +168,6 @@ label {
 .masthead1 img {
     width: 6%;
     animation: spin 6s linear infinite;
-}
-
-#mastheadPlay {
-    margin-top: 10%;
 }
 
 .changeFontColor {
@@ -187,7 +183,7 @@ label {
 }
 
 .words {
-    font-size: 14px;
+    font-size: 0.875rem;
     padding-left: 2%;
     padding-top: 4%;
 }
@@ -209,12 +205,12 @@ label {
     margin-top: 4%;
     margin-bottom: 4%;
 
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 #work {
-    border-top: solid 1px #383838;
+    border-top: solid 0.0625rem #383838;
 }
 
 .imgRow {
@@ -238,7 +234,8 @@ label {
 h2 {
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 1.875rem;
+    line-height: 1.2;
     color: #fff;
 }
 
@@ -249,13 +246,14 @@ h2:hover {
 }
 
 .small {
-    font-size: 14px;
+    font-size: 1rem;
+    line-height: 1.2;
     color: #fff;
     width: 100%;
 }
 
 .sideBlankBottom {
-    height: 30px;
+    height: 1.875rem;
 }
 
 /***** Zoom in case images when hovering *****/
@@ -313,7 +311,7 @@ h2:hover {
 }
 
 #footer2 {
-    padding-top: 6%;
+    padding-top: 0%;
     padding-bottom: 6%;
 
     display: flex;
@@ -326,14 +324,14 @@ h2:hover {
 .footerTitle {
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 1rem;
     color: #fff;
 }
 
 .footerTitle2 {
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 1rem;
 }
 
 #media, .copyright, .copyright2 {
@@ -343,7 +341,7 @@ h2:hover {
 .copyright {
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 1rem;
     padding-bottom: 3%;
     color: #fff;
 }
@@ -351,7 +349,7 @@ h2:hover {
 .copyright2 {
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 1rem;
     padding-bottom: 3%;
     text-transform: uppercase;
 }
@@ -362,23 +360,23 @@ h2:hover {
 }
 
 .icon {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #fff;
 }
 
 .icon2 {
-    font-size: 14px;
+    font-size: 0.875rem;
 
     display: flex;
     flex-direction: column;
 }
 
 .icon2 a:hover {
-    border-bottom: 0.5px solid #020202;
+    border-bottom: 0.03125rem solid #020202;
 }
 
 .sideBlanknavbottom {
-    width: 70px;
+    width: 4.375rem;
 }
 
 .whiteFont {
@@ -386,8 +384,8 @@ h2:hover {
 }
 
 a .whiteFont:hover {
-    font-size: 14px;
-    border-bottom: 0.5px solid #fff;
+    font-size: 0.875rem;
+    border-bottom: 0.03125rem solid #fff;
 }
 
 /********** ANIMATIONS **********/
@@ -475,15 +473,23 @@ a .whiteFont:hover {
     }
 
     /* index.html */
-    
+
     .masthead1 {
-        font-size: 30px;
-        margin-right: 0%;
+        font-size: 2rem;
+    }
+
+    #footer2 #media {
+        display: none;
     }
 
     #column {
         display: flex;
         flex-direction: column;
+    }
+
+    .imgRow .imageHeader {
+        padding-top: 1%;
+        padding-bottom: 1%;
     }
 
     h2 {
@@ -578,7 +584,7 @@ a .whiteFont:hover {
         display: flex;
         flex-direction: row;
 
-        margin-top: 14%;
+        padding-top: 14%;
     }
 
     #footer2 {
@@ -587,7 +593,7 @@ a .whiteFont:hover {
         display: flex;
         flex-direction: row;
 
-        margin-top: 14%;
+        padding-top: 14%;
     }
 
     #media {
