@@ -8,6 +8,8 @@ html, body {
 
     transition: all 200ms;
     will-change: background;
+
+    font-size: 16px;
 }
 
 .clear {
@@ -42,7 +44,7 @@ html, body {
 html {
     font-family: 'Inter', sans-serif;
     font-weight: 200;
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.8;
     color: #020202;
 
@@ -159,7 +161,7 @@ label {
 .masthead1 {
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
-    font-size: 3.75rem;
+    font-size: 1.125rem;
     line-height: 1.2;
 
     margin-right: 20%;
@@ -475,7 +477,15 @@ a .whiteFont:hover {
     /* index.html */
 
     .masthead1 {
-        font-size: 2rem;
+        font-size: 1.375rem;
+    }
+
+    .detailTitle {
+        font-size: 1.25rem;
+    }
+
+    .small{
+        font-size: 1rem;
     }
 
     #footer2 #media {
@@ -487,9 +497,13 @@ a .whiteFont:hover {
         flex-direction: column;
     }
 
-    .imgRow .imageHeader {
+    .imageHeader {
         padding-top: 1%;
         padding-bottom: 1%;
+    }
+
+    #workIn .imgRow {
+        display: none;
     }
 
     h2 {
