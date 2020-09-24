@@ -8,8 +8,6 @@ html, body {
 
     transition: all 200ms;
     will-change: background;
-
-    font-size: 16px;
 }
 
 .clear {
@@ -161,7 +159,7 @@ label {
 .masthead1 {
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
-    font-size: 1.125rem;
+    font-size: 4rem;
     line-height: 1.2;
 
     margin-right: 20%;
@@ -477,7 +475,7 @@ a .whiteFont:hover {
     /* index.html */
 
     .masthead1 {
-        font-size: 1.375rem;
+        font-size: 1.125rem;
     }
 
     .detailTitle {
