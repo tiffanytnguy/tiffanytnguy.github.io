@@ -42,7 +42,7 @@ html, body {
 html {
     font-family: 'Inter', sans-serif;
     font-weight: 200;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.8;
     color: #020202;
 
@@ -159,7 +159,7 @@ label {
 .masthead1 {
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
-    font-size: 4rem;
+    font-size: 3.5rem;
     line-height: 1.2;
 
     margin-right: 20%;

@@ -8,8 +8,6 @@ html, body {
 
     transition: all 200ms;
     will-change: background;
-
-    font-size: 16px;
 }
 
 .clear {
@@ -44,7 +42,7 @@ html, body {
 html {
     font-family: 'Inter', sans-serif;
     font-weight: 200;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.8;
     color: #020202;
 
