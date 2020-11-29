@@ -815,7 +815,7 @@ a .whiteFont:hover {
     }
 
     .imageHeader img {
-        max-width: 100%;
+        display: none;
     }
     
     /* case studies */
