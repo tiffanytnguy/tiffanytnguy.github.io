@@ -37,6 +37,29 @@ html, body {
     width: 20%;
 }
 
+/* progress bar */
+/* Style the header: fixed position (always stay at the top) */
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+    width: 100%;
+    height: 4px;
+    background: transparent;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+    height: 4px;
+    background: #000;
+    width: 0%;
+}
+
 /*** Btn style ***/
 .button {
     background-color: white;
@@ -257,10 +280,6 @@ label {
     flex-direction: row;
 }
 
-.detailTitle {
-    line-height: 0.5;
-}
-
 h2 {
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
@@ -280,6 +299,7 @@ h2:hover {
     line-height: 1.2;
     color: #020202;
     width: 100%;
+    margin-top: -20px;
 }
 
 .sideBlankBottom {
