@@ -2,43 +2,528 @@ html, body {
     padding: 0;
     margin: 0;
     background-color: #fff;
-    color: #171717;
+    transition: all 200ms;
+
+    scroll-behavior: smooth;
+
+    transition: all 200ms;
+    will-change: background;
 }
 
-body {
-    margin: 20%;
-    font-size: 14px;
+#header, #footer {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+/**********FONTS**********/
+
+html {
     font-family: 'Inter', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #020202;
 }
 
-#box {
-    display: flex;
-    flex-direction: row;
-}
-
-.link {
-    margin-right: 20px;
+b {
+    font-weight: 400;
 }
 
 a {
     text-decoration: none;
-    color: #171717;
-    opacity: 40%;
+    color: #020202;
 }
 
-a:hover {
-    opacity: 100%
+.title {
+    font-size: 12px; 
 }
 
-a[target=_blank]:after {
+a:after {
     content: "\2197";
     margin-left: 4px;
 }
 
-/********** RESPONSIVE **********/
-
-/* Use a media query to add a breakpoint at 800px: */
-
-@media screen and (max-width: 800px) {
+a.arrow:after {
+    content: "\02192";
+    margin-left: 4px;
 }
+
+a.backArrow:before {
+    content:"\2190";
+    margin-right: 4px;
+}
+
+a.backArrow:after {
+    content: none;
+}
+
+a:hover {
+    opacity: 30%;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 0.6;
+    color: #020202;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #020202;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: #020202;
+
+    width: 80%;
+}
+
+/**********INDEX**********/
+
+/**HEADER**/
+#header {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: solid 0.2px #E5E5E5;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header .left {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    width: 50%;
+}
+
+#header .intro {
+    width: 50%;
+}
+
+#header .position {
+    width: 30%;
+}
+
+.open {
+    opacity: 30%;
+}
+
+/* Error: Has short animation delay and sometimes hover over the bounding box, turns black */
+.open:hover {
+    opacity: 80%;
+}
+
+/**CONTENT**/
+#projectRow {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-right: 6%;
+    padding-left: 6%;
+    border-bottom: solid 1px #E5E5E5;
+}
+
+.imgRow {
+    display: flex;
+    flex-direction: row;
+
+    padding-bottom: 2%;
+}
+
+.sideBlank {
+    width: 10%;
+}
+
+/**********PLAY**********/
+.projectImg {
+    padding-bottom: 4%;
+}
+
+.projectImg img{
+    width: 1505.93px;
+    max-width: 100%;
+}
+
+.sideBlank {
+ width: 10%;
+}
+
+#otherProjectRow {
+    padding-top: 4%;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+#otherProjectRow.lastRow {
+    padding-bottom: 4%;
+}
+
+/**********ABOUT**********/
+#about {
+    padding-top: 4%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.info {
+    width: 40%;
+}
+
+/**********CASE STUDIES**********/
+/**PROGRESS BAR**/
+/* Style the header: fixed position (always stay at the top) */
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+    width: 100%;
+    height: 4px;
+    background: transparent;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+    height: 4px;
+    background: #000;
+    width: 0%;
+}
+
+/**OVERVIEW DETAILS**/
+#overview {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.overviewDetails1 {
+    padding-bottom: 2%;
+    width: 60%;
+}
+
+.overviewDetails2 {
+    padding-bottom: 2%;
+    width: 40%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.overviewDetails3 {
+    padding-bottom: 2%;
+    width: 60%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/**IMAGES**/
+#image.center {
+    display: flex;
+    justify-content: center;
+}
+
+.imageFull img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.imageSmall {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.imageSmall img {
+    width: 100%;
+    max-height: 100%;
+}
+
+/**CONTENT AKA TEXT**/
+#text.section {
+    margin-top: 8%;
+}
+
+#text {
+    padding-left:6%;
+    padding-right: 6%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.textLeft, .textRight {
+    width: 50%;
+}
+
+.caption {
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 4%;
+
+    text-align: center;
+    font-size: 20px;
+}
+
+/**BUTTONS**/
+.button {
+    /* styling */
+    background-color: #E5E5E5;
+    border: none;
+    border-radius: 100px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+
+    /* font */
+    color: #020202;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.button.center {
+    width: 10%;
+}
+
+.button.alignLeft {
+    width: 50%;
+}
+
+#button.alignLeft {
+    display: flex;
+    justify-content: left;
+}
+
+/* ERROR: Need to fix button animation — want to hover over button and text will stay the same */
+.button:hover {
+    background-color: #FAFAFA;
+}
+
+#button {
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#next {
+    padding-top: 4%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.nextBtn {
+    display: flex;
+    justify-content: flex-end;
+
+    font-weight: 400;
+}
+
+/* ERROR: Arrow to be on the next line in front of grocery grab */
+.backBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    font-weight: 400;
+}
+
+/**GALLERY**/
+#gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+}
+
+.imageG img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.imageG {
+    margin-bottom: -6px;
+}
+
+/**HIDDEN**/
+.hidden {
+    display: none;
+}
+
+/**********FOOTER**********/
+#footer {
+    margin-top: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer.index {
+    margin-top: 0%;
+}
+
+.border {
+    border-top: solid 1px #E5E5E5;
+}
+
+#media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 40%;
+}
+
+#copyright {
+    font-size: 12px;
+}
+
+/**********MOBILE VIEWING**********/
+@media screen and (max-width: 800px) {
+    /** HEADER **/
+    #header {
+        padding-top: 4%;
+        padding-bottom: 4%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #header .left {
+        margin-bottom: 6%;
+    }
+
+    #header .position {
+        display: none;
+    }
+
+    #header .left {
+        width: 100%;
+    }
+    
+    #header .left .intro {
+        width:  70%;
+    }
+
+    /** INDEX **/
+    #projectRow {
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+
+    .imgRow {
+        padding-bottom: 4%;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgRow video {
+        width: 100%;
+    }
+
+    /** PLAY **/
+    .projectImg {
+        padding-bottom: 1%;
+    }
+
+    .project .detail {
+        padding-bottom: 10%;
+    }
+
+    /** ABOUT **/
+    .info {
+        width: 100%;
+    }
+
+    /** CS **/
+    #overview {
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+
+   .overviewDetails1, .overviewDetails2, .overviewDetails3 {
+        width: 100%;
+   }
+
+   .overviewDetails1 {
+       padding-bottom: 10%;
+   }
+
+   .overviewDetails2, .overviewDetails3 {
+       display: flex;
+       flex-direction: column;
+   }
+
+    .role, .team, .tools, .timeline {
+        padding-bottom: 4%;
+    }
+
+    #text {
+        display: flex;
+        flex-direction: column;
+
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+
+    #text .textLeft, .textRight {
+        width: 100%;
+    }
+
+    #row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imageFull, .imageSmall {
+        padding-bottom: 6%;
+    }
+
+    /** FOOTER **/  
+    #footer {
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer #media {
+        display: flex;
+        flex-direction: column;
+
+        padding-bottom: 10%;
+    }
+
+    #media .icon {
+        padding-bottom: 6%;
+    }
+}
+
+/**********LARGER DESKTOP VIEWING**********/
+/* tbd */
+@media screen and (max-width: 1600px) {}

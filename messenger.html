@@ -4,16 +4,16 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Tiffany Nguyen</title>
-        <link rel="shortcut icon" type="image/png" href="assets/img/smile.png"/>
-        <meta name="description" content="">
+        <link rel="shortcut icon" type="image/png" href="assets/img/img.png"/>
+
+        <!--Responsive-->
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!--Font-->
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
 
-        <!--Link to stylesheets-->
+        <!--Link to styles-->
         <link rel="stylesheet" href="assets/styles/styles.css" type="text/css">
         <script src="assets/scripts/scripts.js"></script>
     </head>
@@ -22,378 +22,294 @@
         <!--PROGRESS BAR-->
         <div class="header">
             <div class="progress-container">
-                <div class="progress-bar" id="myBar"></div>
+              <div class="progress-bar" id="myBar"></div>
             </div>
         </div>
 
-        <!--NAV-->
-        <div class="nav">
-            <label for="toggle">&#9776;</label>
-            <input type="checkbox" id="toggle"/>
-            <div class="menu">
-                <div class="home"><a href="index.html">Tiffany Nguyen</a></div>
-                <div class="side">
-                    <a href="index.html" class="navTitle">Work</a>
-                    <div class="sideBlanknav"></div>
-                    <a href="graphic.html" class="navTitle">Play</a>
-                    <div class="sideBlanknav"></div>
-                    <a href="about.html" class="navTitle">About</a>
+        <!--HEADER-->
+        <div id="header">
+            <div class="left">
+                <div class="intro">
+                    Tiffany Nguyen<br>
+                    Visual and Product Designer, intrigued by the form and complexity of eggs.
                 </div>
+
+                <div class="position">Currently an Associate UX Designer at <a href="https://nianticlabs.com/" target="_blank">Niantic, Inc.</a></div>
+            </div>
+
+            <div class="nav">
+                <div class="link"><a href="index.html">Work</a></div>
+                <div class="link"><a href="play.html">Play</a></div>
+                <div class="link"><a href="about.html">About</a></div>
             </div>
         </div>
 
-        <!--CONTENT-->
+        <!--CASE STUDY-->
         <div id="content">
-            <div class="intro">
-                <div class="tag">Case Study — 2020</div>
-                <div class="titleText">Pin Items in Messenger</div>
-
-                <div id="imageHeader"><div class="imageHeader"><img src="assets/img/messengerPage/messengerHeader.png"></div></div>
+            <div id="overview">
+                <div class="overviewDetails1">
+                    <h1>Messenger</h1>
+                    Messenger is a messaging app and platform. At its core, Messenger helps you instantly reach the people you’re close to without a data plan, for free. My goal was to improve the navigation of certain chats and messages with pins.
+                </div>
                 
-                <div id="introDetails">
-                    <div class="introSubText">Messenger is a messaging app and platform. At its core, Messenger helps you instantly reach the people you’re close to without a data plan, for free. My goal was to improve the navigation of certain chats and messages with pins.</div>
-                    <div class="introBlank"></div>
-                    <div class="introDesc">
-                        <div class="descCat">
-                            <div class="descCatTitle">Role</div>
-                            Graphic Designer<br>
-                            User Researcher<br>
-                            UX Designer
-                        </div>
+                <div class="overviewDetails2">
+                    <div class="role">
+                        <div class="title">Role</div>
+                        Product Designer
+                    </div>
 
-                        <div class="descCat">
-                            <div class="descCatTitle">Tools</div>
-                            Adobe Draw<br>
-                            Adobe Illustrator<br>
-                            Adobe XD
-                        </div>
+                    <div class="tools">
+                        <div class="title">Tools</div>
+                        Adobe Draw<br>
+                        Adobe Illustrator<br>
+                        Figma
+                    </div>
 
-                        <div class="descCat">
-                            <div class="descCatTitle">Timeline</div>
-                            3 weeks, Feb to  Mar 2020
-                        </div>
+                    <div class="timeline">
+                        <div class="title">Timeline</div>
+                        3 weeks, Feb to Mar 2020
                     </div>
                 </div>
             </div>
 
-            <div id="pageSection">
-                <div class="pageSectionTitle">Problem</div>
-                <div class="divide">
-                    <section class="sectionText">How might we improve the navigation of certain chats and messages within Facebook Messenger?</section>
-                    <div class="sideBlank"></div>
-                    <div class="sectionSubTextHalf"></div>
+            <div id="image">
+                <div class="imageFull"><img src="assets/img/messengerPage/header.png"></div>
+            </div>
+
+            <div id="text" class="section">
+                <div class="textLeft">
+                    <h2>Project Overview</h2>
+                </div>
+
+                <div class="textRight">
+                    <div class="title">The Problem</div>
+                    How might we improve the navigation of certain chats and messages within Facebook Messenger?
+                    <br><br>
+                    <div class="title">The Solution</div>
+                    Allow users to pin to better navigate through chats and messages.
                 </div>
             </div>
 
-            <div id="pageSection">
-                <div class="pageSectionTitle">Research</div>
-                <div class="divide">
-                    <section class="sectionText">Understand the primary uses of Messenger, the features that were often used in the app, and the common issues/bugs that users had faced.</section>
-                    <div class="sideBlank"></div>
-                    <section class="sectionSubTextHalf">To fulfill these research goals, I looked through customer reviews on the app store and conducted 3 in-depth interviews with 2 common users and 1 outlier.</section>
+            <div id="image" class="center">
+                <video width="80%" autoplay loop muted>
+                    <source src="assets/img/messengerPage/prototype.mp4" type="video/mp4">
+    
+                    Sorry, your browser doesn't support embedded videos.
+                </video>
+            </div>
+
+            <div id="button">
+                <div class="button" class="center"><a href="https://www.figma.com/proto/D0S8oewzoQgSU752xfkuNG/Tiffany_Messenger?node-id=289%3A2008&viewport=386%2C184%2C0.11458801478147507&scaling=scale-down" target="_blank">Prototype</a></div>
+            </div>
+
+            <div id="text" class="section">
+                <div class="textLeft">
+                    <h2>01 Identifying the Problem</h2>
+                    <h3>What disturbs the process of digitally communicating others in Messenger?</h3>
+                </div>
+
+                <div class="textRight">
+                    My goals were to understand the primary uses of Messenger, the features that were often used in the app, and the common issues/bugs that users had faced.
+                    <br><br>
+                    To summarize the key takeaways from current users, I created an affinity map that noted arising themes and high-level pain points that I observed. The 3 arising themes were: difficult navigation, preferences to navigate efficiently, and the clutter of the messages in the app.
+                    <br><br>
+                    One similarity that all interviewees faced was that they all used Slack as another mode of communication, and preferred it's customization to organize messages through threads, channels, and pins.
                 </div>
             </div>
 
-            <div id="pageSection">
-                <div class="divide">
-                    <section class="sectionText">What disturbs the process of digitally communicating others in Messenger?</section>
-                    <div class="sideBlank"></div>
-                    <section class="sectionSubTextHalf">
-                        To summarize the key takeaways from current users, I created an affinity map that noted arising themes and high-level pain points that I observed. The 3 arising themes were: <b>difficult navigation, preferences to navigate efficiently, and the clutter of the messages in the app</b>.
-                        <br><br>
-                        One similarity that all interviewees faced was that they all used Slack as another mode of communication, and preferred it's customization to organize messages through threads, channels, and pins.
-                    </section>
+            <div id="image">
+                <div class="imageSmall"><img src="assets/img/messengerPage/affinity.png"></div>
+            </div>
+
+            <div id="text">
+                <div class="textLeft">
+                    <h3>Building off my findings from user research, I hypothesized 3 key statements.</h3>
+                </div>
+
+                <div class="textRight">
+                    <b>01</b> Messenger distances itself from competitors by offering many features to further personalize the chatting experience. However, with those new features, it can be difficult to navigate through conversations and messages.
+                    <br><br>
+                    <b>02</b> The process to navigate a message or chat is a long process that can be simplified.
+                    <br><br>
+                    <b>03</b> There is a need for users to sort chats and go back to specific messages for user accessibility.
                 </div>
             </div>
 
-            <div id="pageSection" class="sectionInteraction">
-                <div class="imageHeader"><img src="assets/img/messengerPage/findings.png"></div>
-                <div class="caption">Affinity map from user interviews and app reviews.</div>
-            </div>
+            <div id="text">
+                <div class="textLeft">
+                    <h3>Problem: People want to access chats and messages in simple and quick steps, but they have difficulty navigating through the clutter of Messenger's features and the long string of chats.</h3>
+                </div>
 
-            <div id="pageSection">
-                <div class="divide">
-                    <div class="sectionText">I compiled the pain points commonly faced to brainstorm possible solutions.</div>
-                    <div class="sideBlank"></div>
-                    <div class="sectionSubTextHalf">
-                        01 — Messenger distances itself from competitors by offering many features to further personalize the chatting experience. However, with those new features, it can be difficult to navigate through conversations and messages. 
-                        <br><br>
-                        02 — The process to navigate a message or chat is a long process that can be simplified. 
-                        <br><br>
-                        03 — Messenger contains many features that don't focus on optimizing the user goal - accessing messages efficiently and having the app related to only messages. 
-                        <br><br>
-                        04 — There is a need for users to sort chats and pin specific messages for user accessibility.
-                    </div>
+                <div class="textRight">
+                    When it came to searching through messages, sometimes there is no recollection of the message specificity. For example, my friend wanted to know which Korean BBQ location we were going to be meeting at searching 'kbbq' in the conversation was not specific enough to get the location right away.
                 </div>
             </div>
 
-            <div id="pageSection">
-                <div class="pageSectionTitle">Back to Problem Space</div>
-                <div class="divide">
-                    <section class="sectionText">How might we improve the navigation of certain chats and messages within Facebook Messenger?</section>
-                    <div class="sideBlank"></div>
-                    <div class="sectionSubTextHalf"> People want to access chats and messages in simple and quick steps, but they have difficulty navigating through the clutter of Messenger's features and the long string of chats.</div>
-                </div>
+            <div id="image">
+                <div class="imageSmall"><img src="assets/img/messengerPage/kbbq.png"></div>
             </div>
 
-            <div id="pageSection">
-                <div class="divide">
-                    <div class="sectionText">
-                        <video width="100%" autoplay loop muted>
-                            <source src="assets/img/messengerPage/messengerSearch.mp4" type="video/mp4">
-            
-                            Sorry, your browser doesn't support embedded videos.
-                        </video>
-                    </div>
-                    <div class="sideBlank"></div>
-                    <div class="sectionSubTextHalf">
-                        <div class="sectionTextAll">Searching a specific message in a conversation can be lost when not remembered.</div>
-                        <div class="sectionSubTextLong">When it came to searching through messages, sometimes there is no recollection of the message specificity. For example, my friend wanted to know which Korean BBQ location we were going to be meeting at searching 'kbbq' in the conversation was not specific enough to get the location right away.</div>
-                    </div>
+            <div id="text" class="section">
+                <div class="textLeft">
+                    <h2>02 Ideation</h2>
+                    <h3>30 ideas into 1.</h3>
                 </div>
-            </div>
 
-            <div id="pageSection">
-                <div class="divide">
-                    <div class="sectionSubTextHalf">
-                        <div class="sectionTextAll">Looking towards Slack's way of pinning messages.</div>
-                        <div class="sectionSubTextLong">
-                            Going back through the interviews and discussing with peers, I found that Slack was a prime example of providing a product that allows users to easily navigate through their chats.
-                            <br><br>
-                            As an avid user of Messenger and Slack, I was able to see the successful use of a 'pin' product within current communities and channels I was part of, and decided to take inspiration from this feature.
-                        </div>
-                    </div>
-                    <div class="sideBlank"></div>
-                    <div class="sectionText">
-                        <video width="100%" autoplay loop muted>
-                            <source src="assets/img/messengerPage/slack.mp4" type="video/mp4">
-            
-                            Sorry, your browser doesn't support embedded videos.
-                        </video>
+                <div class="textRight">
+                    I started with 30 ideas and funneled them down to rest on one idea. Taking the 6 out of 30 ideas that I felt would be most impactful, I did a SWOT and Feasibility / Impact analysis to decide which idea would be most practical to do in 3 weeks and would also provide the most impact in solving the problem of navigation.
+                    <br><br>
+                    Ultimately, I decided to go with pinning. People found that memorizing important dates, places, links can be extremely difficult. We often resort to copy and paste the message in our endless doc of notes or a notepad. With an addition of the Messenger 'pin', this painstaking process of sliding through endless chats and messages would be reduced.
+                    <div id="button" class="alignLeft">
+                        <div class="button" class="alignLeft"><a href="link">Brainstorming Process</a></div>
                     </div>
                 </div>
             </div>
 
+            <div id="text" class="section">
+                <div class="textLeft">
+                    <h2>03 Iterations on Iterations</h2>
+                </div>
 
-            <div id="pageSection">
-                <div class="pageSectionTitle">Brainstorm</div>
-                <div class="divide">
-                    <section class="sectionText">Utilizing what I learned from <a href="https://www.ideou.com/pages/brainstorming" target="_blank"><b>IDEO's brainstorming session</b></a>, I timed myself for 1 minute to generate 30 ideas, from wacky to rational.</section>
-                    <div class="sideBlank"></div>
-                    <div class="sectionSubTextHalf">
-                        I started with 30 ideas and funneled them down to rest on one idea.
-                        <br><br>
-                        Taking the 6 out of 30 ideas that I felt would be most impactful, I did a SWOT and Feasibility / Impact analysis to decide which idea would be most practical to do in 3 weeks and would also provide the most impact in solving the problem of navigation.
-                    </div>
+                <div class="textRight">
+                    When ideating and sketching possible user flows, I took in mind the content requirements needed to craft an efficient and feasible feature.
+                    <br><br>
+                    <b>01</b> Reduce the current clutter on Facebook Messenger by removing or relocating features that are rarely used by users to make space for pinned chats.
+                    <br><br>
+                    <b>02</b> Have the pin feature be visually accessible on the current screen, without adding more clutter to the Messenger Screen.
+                    <br><br>
+                    I primarily aimed to build upon Messenger's current features - e.g., adding on actions when clicking a Chat or message.
                 </div>
             </div>
 
-            <div id="pageSection">
-                <div class="imageHeader"><img src="assets/img/messengerPage/ideation-01.png"></div>
-                <div class="caption">SWOT Analysis to note the strenths, weaknesses, opportunities, and threats of each idea.</div>
-            </div>
+            <div id="text">
+                <div class="textLeft">
+                    <h3>Most found the app to be a partial solution to navigating through conversations, but still found difficulty noting pinned chats.</h3>
+                </div>
 
-            <div id="pageSection">
-                <div class="imageHeader"><img src="assets/img/messengerPage/ideation-02.png"></div>
-                <div class="caption">Feasibility / Impact chart to reflect the impact of each idea as well as the practicality to finish in three weeks.</div>
-            </div>
-
-            <div id="pageSection">
-                <div class="pageSectionTitle">Solution</div>
-                <div class="divide">
-                    <div class="sectionText">Allow users to pin and chats<br> and messages.</div>
-                    <div class="sideBlank"></div>
-                    <div class="sectionSubTextHalf">For Messenger, I, along with my peers, found that memorizing important dates, places, links can be extremely difficult. We often resort to copy and paste the message in our endless doc of notes or a notepad. With an addition of the Messenger 'pin', this painstaking process of sliding through endless chats and messages would be reduced.</div>
+                <div class="textRight">
+                    One person suggested "having another category at the bottom of the Chats to access only pinned chats [because this will] help resolve the issue of pinning everything."
+                    <br><br>
+                    Instead of taking a preventative measure with the confirmation, I considered to offer any easier way to rectify the mistake, with an undo button.
+                    <br><br>
+                    Taking in mind this insight, I made major changes to the prototype to keep things accessible but also minimal.
                 </div>
             </div>
 
-            <div id="pageSection">
-                <div class="pageSectionTitle">Mid-Fidelity and Feedback</div>
-                <div class="divide">
-                    <div class="sectionText">When ideating and sketching possible user flows, I took in mind the content requirements needed to craft an efficient and feasible feature. </div>
-                    <div class="sideBlank"></div>
-                    <div class="sectionSubTextHalf">
-                        01 — Reduce the current clutter on Facebook Messenger by removing or relocating features that are rarely used by users to make space for pinned chats.
-                        <br><br>
-                        02 — Have the pin feature be visually accessible on the current screen, without adding more clutter to the Messenger Screen.
-                        <br><br>
-                        I primarily aimed to build upon Messenger's current features - e.g., adding on actions when clicking a Chat or message.
-                    </div>
+            <div id="image">
+                <div class="caption">Pinning Chats, before and after</div>
+                <div class="imageSmall"><img src="assets/img/messengerPage/changes-01.png"></div>
+            </div>
+
+            <div id="image">
+                <div class="caption">Pinning Messages, before and after</div>
+                <div class="imageSmall"><img src="assets/img/messengerPage/changes-02.png"></div>
+            </div>
+
+            <div id="image">
+                <div class="caption">Locating Pinned Messages, before and after</div>
+                <div class="imageSmall"><img src="assets/img/messengerPage/changes-03.png"></div>
+            </div>
+
+            <div id="text" class="section">
+                <div class="textLeft">
+                    <h2>04 Design System</h2>
                 </div>
+
+                <div class="textRight"></div>
             </div>
 
-            <div id="pageSection">
-                <div class="imageHeader"><img src="assets/img/messengerPage/wireframes.png"></div>
-                <div class="caption">Wireframes, included with actions, feedback, and further questions to explore.</div>
+            <div id="image">
+                <div class="imageFull"><img src="assets/img/messengerPage/system.png"></div>
             </div>
 
-            <div id="pageSection">
-                <div class="divide">
-                    <div class="sectionText">Most found the app to be a partial solution to navigating through conversations, but still found difficulty noting pinned chats.</div>
-                    <div class="sideBlank"></div>
-                    <div class="sectionSubTextHalf">
-                        One person suggested "having another category at the bottom of the Chats to access only pinned chats [because this will] help resolve the issue of pinning everything."
-                        <br><br>
-                        Instead of taking a preventative measure with the confirmation, I considered to offer any easier way to rectify the mistake, with an undo button. 
-                        <br><br>
-                        Taking in mind this insight, I made major changes to the prototype to keep things accessible but also minimal.
-                    </div>
+            <div id="text" class="section">
+                <div class="textLeft">
+                    <h2>05 Final Prototype</h2>
                 </div>
+
+                <div class="textRight"></div>
             </div>
 
-            <div id="pageSection">
-                <div class="imageHeader"><img src="assets/img/messengerPage/messengerChanges-01.png"></div>
+            <div id="image" class="center">
+                <video width="80%" autoplay loop muted>
+                    <source src="assets/img/messengerPage/prototype.mp4" type="video/mp4">
+    
+                    Sorry, your browser doesn't support embedded videos.
+                </video>
             </div>
 
-            <div id="pageSection">
-                <div class="imageHeader"><img src="assets/img/messengerPage/messengerChanges-02.png"></div>
+            <div id="button">
+                <div class="button" class="center"><a href="https://www.figma.com/proto/D0S8oewzoQgSU752xfkuNG/Tiffany_Messenger?node-id=289%3A2008&viewport=386%2C184%2C0.11458801478147507&scaling=scale-down" target="_blank">Prototype</a></div>
             </div>
 
-            <div id="pageSection">
-                <div class="imageHeader"><img src="assets/img/messengerPage/messengerChanges-03.png"></div>
-            </div>
-
-            <div id="pageSection">
-                <div class="imageHeader"><img src="assets/img/messengerPage/messengerChanges-04.png"></div>
-            </div>
-
-            <div id="pageSection">
-                <div class="imageHeader"><img src="assets/img/messengerPage/messengerChanges-05.png"></div>
-            </div>
-
-            <div id="pageSection">
-                <div class="imageHeader"><img src="assets/img/messengerPage/messengerChanges-06.png"></div>
-            </div>
-
-            <div id="pageSection">
-                <div class="pageSectionTitle">Final Prototype</div>
-                <div class="divide">
-                    <div class="sectionText">
-                        <video width="100%" autoplay loop muted>
-                            <source src="assets/img/messengerPage/pinChat.mp4" type="video/mp4">
-            
-                            Sorry, your browser doesn't support embedded videos.
-                        </video>
-                    </div>
-                    <div class="sideBlank"></div>
-                    <div class="sectionSubTextHalf">
-                        <div class="sectionTextAll">Pin your important chats.</div>
-                        <div class="sectionSubTextLong">Have a project group or people you'd like to keep in sync with all the time? Pin those important chats.</div>
-                    </div>
+            <div id="text" class="section">
+                <div class="textLeft">
+                    <h2>Learnings and Takeaways</h2>
                 </div>
-            </div>
 
-            <div id="pageSection">
-                <div class="divide">
-                    <div class="sectionSubTextHalf">
-                        <div class="sectionTextAll">Access your pinned chats in the pins tab.</div>
-                        <div class="sectionSubTextLong">Keep track of your pinned chats in the pins tab.</div>
-                    </div>
-                    <div class="sideBlank"></div>
-                    <div class="sectionText">
-                        <video width="100%" autoplay loop muted>
-                            <source src="assets/img/messengerPage/unpinChat.mp4" type="video/mp4">
-            
-                            Sorry, your browser doesn't support embedded videos.
-                        </video>
-                    </div>
-                </div>
-            </div>
-
-            <div id="pageSection">
-                <div class="divide">
-                    <div class="sectionText">
-                        <video width="100%" autoplay loop muted>
-                            <source src="assets/img/messengerPage/pinMessage.mp4" type="video/mp4">
-            
-                            Sorry, your browser doesn't support embedded videos.
-                        </video>
-                    </div>
-                    <div class="sideBlank"></div>
-                    <div class="sectionSubTextHalf">
-                        <div class="sectionTextAll">Streamline flow of pinning messages and chats.</div>
-                        <div class="sectionSubTextLong">Want to keep note of an important message?<br>Pin your messages to look back at later.</div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="pageSection">
-                <div class="divide">
-                    <div class="sectionSubTextHalf">
-                        <div class="sectionTextAll">Access pinned messages within your chat.</div>
-                        <div class="sectionSubTextLong">Following the same user flow of taking other actions, people can access pinned messages within their current chat’s information screen.</div>
-                    </div>
-                    <div class="sideBlank"></div>
-                    <div class="sectionText">
-                        <video width="100%" autoplay loop muted>
-                            <source src="assets/img/messengerPage/unpinMessage.mp4" type="video/mp4">
-            
-                            Sorry, your browser doesn't support embedded videos.
-                        </video>
-                    </div>
-                </div>
-            </div>
-
-            <div id="pageSection" class="center">
-                <div class="pageSectionTitle">Outcome</div>
-                <div class="sectionSubTextNon">
+                <div class="textRight">
                     This was an exciting and fun project for me to work on as it provides real value, involved a ton of research, and brought close attention to interactions. This was my first individual product case study and I learned some important takeaways from this project related to working on projects, in general:
                     <br><br>
-                    <p>Dial on a product with scalability and and ways to reengage the product.</p>
-                    What is the purpose and intent of the product?  What other opportunities can I turn and explore with this solution? Prior to starting this project, I crafted a quick solution (enable multiple deletions of chats) and went over it with my mentor, who later suggested for me to go back towards the problem and figure out a product rather than a minor feature. Enabling people to pin chats and messages provides an alternative way to search back at important points, whereas deleting multiple chats only resolved clearing out one's message box.
+                    <b>Dial on a product with scalability and and ways to reengage the product.</b><br>
+                    What is the purpose and intent of the product? What other opportunities can I turn and explore with this solution? Prior to starting this project, I crafted a quick solution (enable multiple deletions of chats) and went over it with my mentor, who later suggested for me to go back towards the problem and figure out a product rather than a minor feature. Enabling people to pin chats and messages provides an alternative way to search back at important points, whereas deleting multiple chats only resolved clearing out one's message box.
                     <br><br>
-                    <p>When finding users to interview or test on, always have an uncommon user — someone who isn’t a primary user of the product e.g. uses the product in a non-conventional way.</p>
+                    <b>When finding users to interview or test on, always have an uncommon user — someone who isn’t a primary user of the product e.g. uses the product in a non-conventional way.</b><br>
                     To keep note of any edge or wild cases of outlier users, it was good to interview those you used Messenger in an uncommonly way.
                     <br><br>
-                    <p>Taking further steps to solidify a concrete idea and ultimate solution.</p>
+                    <b>Taking further steps to solidify a concrete idea and ultimate solution.</b><br>
                     I took measures to make sure the derived solution was practical and would provide high impact by creating a SWOT analysis and Feasibility / Impact chart with my ideas.
                 </div>
             </div>
 
-            <div id="pageSection" class="center">
-                <div class="pageSectionTitle">Next steps</div>
-                <div class="sectionSubTextNon">
-                    <p>Apply additional research methods.</p>
+            <div id="text">
+                <div class="textLeft">
+                    <h2>Next Steps</h2>
+                </div>
+
+                <div class="textRight">
+                    <b>Apply additional research methods.</b><br>
                     To further improve on the feature, conducting other additional research methods such as A/B Testing or click analysis would help get more feedback and prove if the new feature is actually efficient.
                     <br><br>
-                    <p>Exploring alternative ways to view all pinned messages within a chat.</p>
+                    <b>Exploring alternative ways to view all pinned messages within a chat.</b><br>
                     Although my solution followed the same task flow of other actions such as delete or reply and viewing more information about the chat (sending payment, looking at photos, etc.), the process to view chats is out of reach, compared to the initial wireframe. How might we still reengage pinned messages in a shorter and more efficient amount of time?
                 </div>
             </div>
 
-            <!--Bottom Nav-->
-            <div id="bottomNav">
-                <div class="left"><a href="grocery.html">🡐 Grocery Grab</a></div>
-                <div class="right"></div> 
+            <div id="next">
+                <div class="backBtn">
+                    <a href="grocery.html" class="backArrow">
+                    Back<br>
+                    Grocery Grab
+                    </a>
+                </div>
             </div>
         </div>
-
+        
         <!--FOOTER-->
-        <div id="footer">
+        <div id="footer" class="border">
             <div id="media">
                 <div class="icon">
-                    <div class="footerTitle">Contact</div>
-                    <a href="mailto:tiffanytnguy@berkeley.edu" target="_blank"><div class="whiteFont">tiffanytnguy@berkeley.edu</div></a>
+                    <div class="title">Contact</div>
+                    <a href="mailto:tiffanytnguy@berkeley.edu" target="_blank">tiffanytnguy@berkeley.edu</a>
                 </div>
 
-                <div class="sideBlanknavbottom"></div>
+                <div class="sideBlank"></div>
 
                 <div class="icon">
-                    <div class="footerTitle">Resume</div>
-                    <a href="assets/TiffanyNguyen_resume.pdf" target="_blank"><div class="whiteFont">Download here</div></a>
+                    <div class="title">Resume</div>
+                    <a href="assets/TiffanyNguyen_resume.pdf" target="_blank">Download here</a>
                 </div>
 
-                <div class="sideBlanknavbottom"></div>
+                <div class="sideBlank"></div>
 
-                <div class="icon">
-                    <div class="footerTitle">Social</div>
-                    <a href="https://www.linkedin.com/in/tiffanytnguy/" target="_blank"><div class="whiteFont">LinkedIn</div></a>
-                    <a href="https://www.instagram.com/tifdraws/" target="_blank"><div class="whiteFont">Instagram</div></a>
+                <div class="icon" class="social">
+                    <div class="title">Social</div>
+                    <a href="https://www.linkedin.com/in/tiffanytnguy/" target="_blank">LinkedIn</a><br>
+                    <a href="https://www.instagram.com/tifdraws/" target="_blank">Instagram</a>
                 </div>
             </div>
             
-            <div class="copyright">© Made with dry eyes by Tiffany Nguyen.</div>
+            <div id="copyright">© Made with dry eyes by Tiffany Nguyen.</div>
         </div>
-        
     </body>
 </html>
