@@ -454,10 +454,7 @@ h3 {
     }
 
     .imgRow {
-        padding-bottom: 4%;
-
-        display: flex;
-        flex-direction: column;
+        display: none;
     }
 
     .imgRow video {
