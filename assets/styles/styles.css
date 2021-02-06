@@ -406,6 +406,23 @@ h3 {
 
 /**********MOBILE VIEWING**********/
 @media screen and (max-width: 800px) {
+    /**  ARROWS **/
+    a:after {
+        display: none;
+    }
+    
+    a.arrow:after {
+        display: none;
+    }
+    
+    a.backArrow:before {
+        display: none;
+    }
+    
+    a.backArrow:after {
+        display: none;
+    }
+
     /** HEADER **/
     #header {
         padding-top: 4%;
